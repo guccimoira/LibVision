@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/userHome"
+        android:title="@string/home"
+        android:icon="@drawable/home_button"/>
+
+    <item android:id="@+id/userProfile"
+        android:title="Profile"
+        android:icon="@drawable/profile"/>
+
+    <item android:id="@+id/userManual"
+        android:title="Manual"
+        android:icon="@drawable/manual_button"/>
+
+</menu>
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<menu xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+
+    <!--    <item android:id="@+id/userHome"-->
+    <!--        android:title="@string/home"-->
+    <!--        android:icon="@drawable/home_button"/>-->
+
+
+    <!--    <item android:id="@+id/userMessages"-->
+    <!--        android:title="Messages"-->
+    <!--        android:icon="@drawable/messages"/>-->
+
+
+    <!--    <item android:id="@+id/userFeedback"-->
+    <!--        android:title="Feedback"-->
+    <!--        android:icon="@drawable/feedback"/>-->
+
+
+    <!--</menu>-->
+
+
+
