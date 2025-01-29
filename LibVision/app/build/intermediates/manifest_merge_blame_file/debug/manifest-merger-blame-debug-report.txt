@@ -1,0 +1,89 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.imagepro"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:6:5-65
+11-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:6:22-62
+12
+13    <uses-feature
+13-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:8:5-10:36
+14        android:name="android.hardware.camera"
+14-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:9:9-47
+15        android:required="false" />
+15-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:10:9-33
+16    <uses-feature
+16-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:11:5-13:36
+17        android:name="android.hardware.camera.autofocus"
+17-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:12:9-57
+18        android:required="false" />
+18-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:13:9-33
+19    <uses-feature
+19-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:14:5-16:36
+20        android:name="android.hardware.camera.front"
+20-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:15:9-53
+21        android:required="false" />
+21-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:16:9-33
+22    <uses-feature
+22-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:17:5-19:36
+23        android:name="android.hardware.camera.front.autofocus"
+23-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:18:9-63
+24        android:required="false" />
+24-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:19:9-33
+25
+26    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+27    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+28    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+29
+30    <application
+30-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:21:5-38:19
+31        android:allowBackup="true"
+31-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:22:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.3.1] C:\Users\csv20\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:23:9-43
+35        android:label="@string/app_name"
+35-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:24:9-41
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:25:9-54
+37        android:supportsRtl="true"
+37-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:26:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.ImagePro" >
+39-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:27:9-46
+40        <activity
+40-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:28:9-29:49
+41            android:name="com.example.imagepro.CameraActivity"
+41-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:28:19-49
+42            android:exported="false" />
+42-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:29:13-37
+43        <activity
+43-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:30:9-37:20
+44            android:name="com.example.imagepro.MainActivity"
+44-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:30:19-47
+45            android:exported="true" >
+45-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:31:13-36
+46            <intent-filter>
+46-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:32:13-36:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:33:17-69
+47-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:33:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:35:17-77
+49-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:35:27-74
+50            </intent-filter>
+51        </activity>
+52    </application>
+53
+54</manifest>

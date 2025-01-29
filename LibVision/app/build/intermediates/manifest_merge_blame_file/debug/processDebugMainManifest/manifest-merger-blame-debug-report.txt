@@ -1,0 +1,951 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.imagepro"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <!-- Permissions and Features -->
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:8:5-65
+14-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:8:22-62
+15
+16    <uses-feature
+16-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:9:5-11:36
+17        android:name="android.hardware.camera"
+17-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:10:9-47
+18        android:required="false" />
+18-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:11:9-33
+19    <uses-feature
+19-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:12:5-14:36
+20        android:name="android.hardware.camera.autofocus"
+20-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:13:9-57
+21        android:required="false" />
+21-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:14:9-33
+22    <uses-feature
+22-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:15:5-17:36
+23        android:name="android.hardware.camera.front"
+23-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:16:9-53
+24        android:required="false" />
+24-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:17:9-33
+25    <uses-feature
+25-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:18:5-20:36
+26        android:name="android.hardware.camera.front.autofocus"
+26-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:19:9-63
+27        android:required="false" />
+27-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:20:9-33
+28
+29    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+30    <!-- <uses-sdk android:minSdkVersion="21" /> -->
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:10:5-79
+31-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:10:22-76
+32    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+32-->[com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\csv20\.gradle\caches\8.9\transforms\7bfc9b1186592f65c9689a902e596879\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:9:5-98
+32-->[com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\csv20\.gradle\caches\8.9\transforms\7bfc9b1186592f65c9689a902e596879\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:9:22-95
+33
+34    <permission
+34-->[androidx.core:core:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\32c5d5592cbced18c50b69bee66180ef\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+35        android:name="com.example.imagepro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+35-->[androidx.core:core:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\32c5d5592cbced18c50b69bee66180ef\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+36        android:protectionLevel="signature" />
+36-->[androidx.core:core:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\32c5d5592cbced18c50b69bee66180ef\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+37
+38    <uses-permission android:name="com.example.imagepro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+38-->[androidx.core:core:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\32c5d5592cbced18c50b69bee66180ef\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+38-->[androidx.core:core:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\32c5d5592cbced18c50b69bee66180ef\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+39    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+40    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+41    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Application Configuration -->
+42    <application
+42-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:23:5-329:19
+43        android:allowBackup="true"
+43-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:24:9-35
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\32c5d5592cbced18c50b69bee66180ef\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+45        android:debuggable="true"
+46        android:extractNativeLibs="false"
+47        android:icon="@mipmap/logo"
+47-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:25:9-36
+48        android:label="@string/app_name"
+48-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:26:9-41
+49        android:roundIcon="@mipmap/logo_round"
+49-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:27:9-47
+50        android:supportsRtl="true"
+50-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:28:9-35
+51        android:theme="@style/Theme.ImagePro" >
+51-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:29:9-46
+52
+53        <!-- Activities -->
+54        <activity
+54-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:33:9-35:40
+55            android:name="com.example.imagepro.LibrarianProfile"
+55-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:34:13-45
+56            android:exported="false" />
+56-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:35:13-37
+57        <activity
+57-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:36:9-38:40
+58            android:name="com.example.imagepro.EditProfile"
+58-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:37:13-40
+59            android:exported="false" />
+59-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:38:13-37
+60        <activity
+60-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:39:9-41:40
+61            android:name="com.example.imagepro.TheAboutUs"
+61-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:40:13-39
+62            android:exported="false" />
+62-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:41:13-37
+63        <activity
+63-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:42:9-44:40
+64            android:name="com.example.imagepro.TheLibrarians"
+64-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:43:13-42
+65            android:exported="false" />
+65-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:44:13-37
+66        <activity
+66-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:45:9-47:40
+67            android:name="com.example.imagepro.user_homepage"
+67-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:46:13-42
+68            android:exported="false" />
+68-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:47:13-37
+69        <activity
+69-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:48:9-50:40
+70            android:name="com.example.imagepro.BCMedicalStatusBook10"
+70-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:49:13-50
+71            android:exported="false" />
+71-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:50:13-37
+72        <activity
+72-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:51:9-53:40
+73            android:name="com.example.imagepro.BCMedicalStatusBook9"
+73-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:52:13-49
+74            android:exported="false" />
+74-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:53:13-37
+75        <activity
+75-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:54:9-56:40
+76            android:name="com.example.imagepro.BCMedicalStatusBook8"
+76-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:55:13-49
+77            android:exported="false" />
+77-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:56:13-37
+78        <activity
+78-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:57:9-59:40
+79            android:name="com.example.imagepro.BCMedicalStatusBook7"
+79-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:58:13-49
+80            android:exported="false" />
+80-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:59:13-37
+81        <activity
+81-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:60:9-62:40
+82            android:name="com.example.imagepro.BCMedicalStatusBook6"
+82-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:61:13-49
+83            android:exported="false" />
+83-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:62:13-37
+84        <activity
+84-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:63:9-65:40
+85            android:name="com.example.imagepro.BCMedicalStatusBook5"
+85-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:64:13-49
+86            android:exported="false" />
+86-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:65:13-37
+87        <activity
+87-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:66:9-68:40
+88            android:name="com.example.imagepro.BCMedicalStatusBook4"
+88-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:67:13-49
+89            android:exported="false" />
+89-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:68:13-37
+90        <activity
+90-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:69:9-71:40
+91            android:name="com.example.imagepro.BCMedicalStatusBook3"
+91-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:70:13-49
+92            android:exported="false" />
+92-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:71:13-37
+93        <activity
+93-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:72:9-74:40
+94            android:name="com.example.imagepro.BCMedicalStatusBook2"
+94-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:73:13-49
+95            android:exported="false" />
+95-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:74:13-37
+96        <activity
+96-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:75:9-77:40
+97            android:name="com.example.imagepro.BCMedicalStatusBook1"
+97-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:76:13-49
+98            android:exported="false" />
+98-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:77:13-37
+99        <activity
+99-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:78:9-82:66
+100            android:name="com.example.imagepro.MedicalLibraryScrollingActivity"
+100-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:79:13-60
+101            android:exported="false"
+101-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:80:13-37
+102            android:label="@string/title_activity_medical_library_scrolling"
+102-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:81:13-77
+103            android:theme="@style/Theme.LibVision.NoActionBar" />
+103-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:82:13-63
+104        <activity
+104-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:83:9-85:40
+105            android:name="com.example.imagepro.BCReferenceStatusBook10"
+105-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:84:13-52
+106            android:exported="false" />
+106-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:85:13-37
+107        <activity
+107-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:86:9-88:40
+108            android:name="com.example.imagepro.BCReferenceStatusBook9"
+108-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:87:13-51
+109            android:exported="false" />
+109-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:88:13-37
+110        <activity
+110-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:89:9-91:40
+111            android:name="com.example.imagepro.BCReferenceStatusBook8"
+111-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:90:13-51
+112            android:exported="false" />
+112-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:91:13-37
+113        <activity
+113-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:92:9-94:40
+114            android:name="com.example.imagepro.BCReferenceStatusBook7"
+114-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:93:13-51
+115            android:exported="false" />
+115-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:94:13-37
+116        <activity
+116-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:95:9-97:40
+117            android:name="com.example.imagepro.BCReferenceStatusBook6"
+117-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:96:13-51
+118            android:exported="false" />
+118-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:97:13-37
+119        <activity
+119-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:98:9-100:40
+120            android:name="com.example.imagepro.BCReferenceStatusBook5"
+120-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:99:13-51
+121            android:exported="false" />
+121-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:100:13-37
+122        <activity
+122-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:101:9-103:40
+123            android:name="com.example.imagepro.BCReferenceStatusBook4"
+123-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:102:13-51
+124            android:exported="false" />
+124-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:103:13-37
+125        <activity
+125-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:104:9-106:40
+126            android:name="com.example.imagepro.BCReferenceStatusBook3"
+126-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:105:13-51
+127            android:exported="false" />
+127-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:106:13-37
+128        <activity
+128-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:107:9-109:40
+129            android:name="com.example.imagepro.BCReferenceStatusBook2"
+129-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:108:13-51
+130            android:exported="false" />
+130-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:109:13-37
+131        <activity
+131-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:110:9-112:40
+132            android:name="com.example.imagepro.BCReferenceStatusBook1"
+132-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:111:13-51
+133            android:exported="false" />
+133-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:112:13-37
+134        <activity
+134-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:113:9-115:40
+135            android:name="com.example.imagepro.BCLawStatusBook10"
+135-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:114:13-46
+136            android:exported="false" />
+136-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:115:13-37
+137        <activity
+137-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:116:9-118:40
+138            android:name="com.example.imagepro.BCLawStatusBook9"
+138-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:117:13-45
+139            android:exported="false" />
+139-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:118:13-37
+140        <activity
+140-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:119:9-121:40
+141            android:name="com.example.imagepro.BCLawStatusBook8"
+141-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:120:13-45
+142            android:exported="false" />
+142-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:121:13-37
+143        <activity
+143-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:122:9-124:40
+144            android:name="com.example.imagepro.BCLawStatusBook7"
+144-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:123:13-45
+145            android:exported="false" />
+145-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:124:13-37
+146        <activity
+146-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:125:9-127:40
+147            android:name="com.example.imagepro.BCLawStatusBook6"
+147-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:126:13-45
+148            android:exported="false" />
+148-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:127:13-37
+149        <activity
+149-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:128:9-130:40
+150            android:name="com.example.imagepro.BCLawStatusBook5"
+150-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:129:13-45
+151            android:exported="false" />
+151-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:130:13-37
+152        <activity
+152-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:131:9-133:40
+153            android:name="com.example.imagepro.BCLawStatusBook4"
+153-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:132:13-45
+154            android:exported="false" />
+154-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:133:13-37
+155        <activity
+155-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:134:9-136:40
+156            android:name="com.example.imagepro.BCLawStatusBook3"
+156-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:135:13-45
+157            android:exported="false" />
+157-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:136:13-37
+158        <activity
+158-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:137:9-139:40
+159            android:name="com.example.imagepro.BCLawStatusBook2"
+159-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:138:13-45
+160            android:exported="false" />
+160-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:139:13-37
+161        <activity
+161-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:140:9-142:40
+162            android:name="com.example.imagepro.BCLawStatusBook1"
+162-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:141:13-45
+163            android:exported="false" />
+163-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:142:13-37
+164        <activity
+164-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:143:9-145:40
+165            android:name="com.example.imagepro.BCHealthStatusBook10"
+165-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:144:13-49
+166            android:exported="false" />
+166-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:145:13-37
+167        <activity
+167-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:146:9-148:40
+168            android:name="com.example.imagepro.BCHealthStatusBook9"
+168-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:147:13-48
+169            android:exported="false" />
+169-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:148:13-37
+170        <activity
+170-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:149:9-151:40
+171            android:name="com.example.imagepro.BCHealthStatusBook8"
+171-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:150:13-48
+172            android:exported="false" />
+172-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:151:13-37
+173        <activity
+173-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:152:9-154:40
+174            android:name="com.example.imagepro.BCHealthStatusBook7"
+174-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:153:13-48
+175            android:exported="false" />
+175-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:154:13-37
+176        <activity
+176-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:155:9-157:40
+177            android:name="com.example.imagepro.BCHealthStatusBook6"
+177-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:156:13-48
+178            android:exported="false" />
+178-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:157:13-37
+179        <activity
+179-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:158:9-160:40
+180            android:name="com.example.imagepro.BCHealthStatusBook5"
+180-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:159:13-48
+181            android:exported="false" />
+181-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:160:13-37
+182        <activity
+182-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:161:9-163:40
+183            android:name="com.example.imagepro.BCHealthStatusBook4"
+183-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:162:13-48
+184            android:exported="false" />
+184-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:163:13-37
+185        <activity
+185-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:164:9-166:40
+186            android:name="com.example.imagepro.BCHealthStatusBook3"
+186-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:165:13-48
+187            android:exported="false" />
+187-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:166:13-37
+188        <activity
+188-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:167:9-169:40
+189            android:name="com.example.imagepro.BCHealthStatusBook2"
+189-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:168:13-48
+190            android:exported="false" />
+190-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:169:13-37
+191        <activity
+191-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:170:9-172:40
+192            android:name="com.example.imagepro.BCHealthStatusBook1"
+192-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:171:13-48
+193            android:exported="false" />
+193-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:172:13-37
+194        <activity
+194-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:173:9-175:40
+195            android:name="com.example.imagepro.BCCirculationStatusBook10"
+195-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:174:13-54
+196            android:exported="false" />
+196-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:175:13-37
+197        <activity
+197-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:176:9-178:40
+198            android:name="com.example.imagepro.BCCirculationStatusBook9"
+198-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:177:13-53
+199            android:exported="false" />
+199-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:178:13-37
+200        <activity
+200-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:179:9-181:40
+201            android:name="com.example.imagepro.BCCirculationStatusBook8"
+201-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:180:13-53
+202            android:exported="false" />
+202-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:181:13-37
+203        <activity
+203-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:182:9-184:40
+204            android:name="com.example.imagepro.BCCirculationStatusBook7"
+204-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:183:13-53
+205            android:exported="false" />
+205-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:184:13-37
+206        <activity
+206-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:185:9-187:40
+207            android:name="com.example.imagepro.BCCirculationStatusBook6"
+207-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:186:13-53
+208            android:exported="false" />
+208-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:187:13-37
+209        <activity
+209-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:188:9-190:40
+210            android:name="com.example.imagepro.BCCirculationStatusBook5"
+210-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:189:13-53
+211            android:exported="false" />
+211-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:190:13-37
+212        <activity
+212-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:191:9-193:40
+213            android:name="com.example.imagepro.BCCirculationStatusBook4"
+213-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:192:13-53
+214            android:exported="false" />
+214-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:193:13-37
+215        <activity
+215-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:194:9-196:40
+216            android:name="com.example.imagepro.BCCirculationStatusBook3"
+216-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:195:13-53
+217            android:exported="false" />
+217-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:196:13-37
+218        <activity
+218-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:197:9-199:40
+219            android:name="com.example.imagepro.BCCirculationStatusBook2"
+219-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:198:13-53
+220            android:exported="false" />
+220-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:199:13-37
+221        <activity
+221-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:200:9-202:40
+222            android:name="com.example.imagepro.BCCirculationStatusBook1"
+222-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:201:13-53
+223            android:exported="false" />
+223-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:202:13-37
+224        <activity
+224-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:203:9-205:40
+225            android:name="com.example.imagepro.BCPeriodicalsStatusBook10"
+225-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:204:13-54
+226            android:exported="false" />
+226-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:205:13-37
+227        <activity
+227-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:206:9-208:40
+228            android:name="com.example.imagepro.BCPeriodicalsStatusBook9"
+228-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:207:13-53
+229            android:exported="false" />
+229-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:208:13-37
+230        <activity
+230-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:209:9-211:40
+231            android:name="com.example.imagepro.BCPeriodicalsStatusBook8"
+231-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:210:13-53
+232            android:exported="false" />
+232-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:211:13-37
+233        <activity
+233-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:212:9-214:40
+234            android:name="com.example.imagepro.BCPeriodicalsStatusBook7"
+234-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:213:13-53
+235            android:exported="false" />
+235-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:214:13-37
+236        <activity
+236-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:215:9-217:40
+237            android:name="com.example.imagepro.BCPeriodicalsStatusBook6"
+237-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:216:13-53
+238            android:exported="false" />
+238-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:217:13-37
+239        <activity
+239-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:218:9-220:40
+240            android:name="com.example.imagepro.BCPeriodicalsStatusBook5"
+240-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:219:13-53
+241            android:exported="false" />
+241-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:220:13-37
+242        <activity
+242-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:221:9-223:40
+243            android:name="com.example.imagepro.BCPeriodicalsStatusBook4"
+243-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:222:13-53
+244            android:exported="false" />
+244-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:223:13-37
+245        <activity
+245-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:224:9-226:40
+246            android:name="com.example.imagepro.BCPeriodicalsStatusBook3"
+246-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:225:13-53
+247            android:exported="false" />
+247-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:226:13-37
+248        <activity
+248-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:227:9-229:40
+249            android:name="com.example.imagepro.BCPeriodicalsStatusBook1"
+249-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:228:13-53
+250            android:exported="false" />
+250-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:229:13-37
+251        <activity
+251-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:230:9-232:40
+252            android:name="com.example.imagepro.BCPeriodicalsStatusBook2"
+252-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:231:13-53
+253            android:exported="false" />
+253-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:232:13-37
+254        <activity
+254-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:233:9-237:66
+255            android:name="com.example.imagepro.ReferenceSectionScrollingActivity"
+255-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:234:13-62
+256            android:exported="false"
+256-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:235:13-37
+257            android:label="@string/title_activity_reference_section_scrolling"
+257-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:236:13-79
+258            android:theme="@style/Theme.LibVision.NoActionBar" />
+258-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:237:13-63
+259        <activity
+259-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:238:9-242:66
+260            android:name="com.example.imagepro.LawLibraryScrollingActivity"
+260-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:239:13-56
+261            android:exported="false"
+261-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:240:13-37
+262            android:label="@string/title_activity_law_library_scrolling"
+262-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:241:13-73
+263            android:theme="@style/Theme.LibVision.NoActionBar" />
+263-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:242:13-63
+264        <activity
+264-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:243:9-247:66
+265            android:name="com.example.imagepro.HealthScienceScrollingActivity"
+265-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:244:13-59
+266            android:exported="false"
+266-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:245:13-37
+267            android:label="HealthScienceScrollingActivity"
+267-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:246:13-59
+268            android:theme="@style/Theme.LibVision.NoActionBar" />
+268-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:247:13-63
+269        <activity
+269-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:248:9-252:66
+270            android:name="com.example.imagepro.CirculationSectionScrollingActivity"
+270-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:249:13-64
+271            android:exported="false"
+271-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:250:13-37
+272            android:label="@string/title_activity_circulation_section_scrolling"
+272-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:251:13-81
+273            android:theme="@style/Theme.LibVision.NoActionBar" />
+273-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:252:13-63
+274        <activity
+274-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:253:9-255:40
+275            android:name="com.example.imagepro.BCFilipinianaStatusBook10"
+275-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:254:13-54
+276            android:exported="false" />
+276-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:255:13-37
+277        <activity
+277-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:256:9-258:40
+278            android:name="com.example.imagepro.BCFilipinianaStatusBook9"
+278-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:257:13-53
+279            android:exported="false" />
+279-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:258:13-37
+280        <activity
+280-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:259:9-261:40
+281            android:name="com.example.imagepro.BCFilipinianaStatusBook8"
+281-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:260:13-53
+282            android:exported="false" />
+282-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:261:13-37
+283        <activity
+283-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:262:9-264:40
+284            android:name="com.example.imagepro.BCFilipinianaStatusBook7"
+284-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:263:13-53
+285            android:exported="false" />
+285-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:264:13-37
+286        <activity
+286-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:265:9-267:40
+287            android:name="com.example.imagepro.BCFilipinianaStatusBook6"
+287-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:266:13-53
+288            android:exported="false" />
+288-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:267:13-37
+289        <activity
+289-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:268:9-270:40
+290            android:name="com.example.imagepro.BCFilipinianaStatusBook5"
+290-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:269:13-53
+291            android:exported="false" />
+291-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:270:13-37
+292        <activity
+292-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:271:9-273:40
+293            android:name="com.example.imagepro.BCFilipinianaStatusBook4"
+293-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:272:13-53
+294            android:exported="false" />
+294-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:273:13-37
+295        <activity
+295-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:274:9-276:40
+296            android:name="com.example.imagepro.BCFilipinianaStatusBook3"
+296-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:275:13-53
+297            android:exported="false" />
+297-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:276:13-37
+298        <activity
+298-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:277:9-279:40
+299            android:name="com.example.imagepro.BCFilipinianaStatusBook2"
+299-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:278:13-53
+300            android:exported="false" />
+300-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:279:13-37
+301        <activity
+301-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:280:9-282:39
+302            android:name="com.example.imagepro.LedControl"
+302-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:281:13-39
+303            android:exported="true" />
+303-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:282:13-36
+304        <activity
+304-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:283:9-287:66
+305            android:name="com.example.imagepro.PeriodicalsSectionScrollingActivity"
+305-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:284:13-64
+306            android:exported="false"
+306-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:285:13-37
+307            android:label="@string/title_activity_periodicals_section_scrolling"
+307-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:286:13-81
+308            android:theme="@style/Theme.LibVision.NoActionBar" />
+308-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:287:13-63
+309        <activity
+309-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:288:9-292:66
+310            android:name="com.example.imagepro.FilipinianaSectionScrollingActivity"
+310-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:289:13-64
+311            android:exported="false"
+311-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:290:13-37
+312            android:label="@string/title_activity_circulation_scrolling"
+312-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:291:13-73
+313            android:theme="@style/Theme.LibVision.NoActionBar" />
+313-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:292:13-63
+314        <activity
+314-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:293:9-295:40
+315            android:name="com.example.imagepro.BCFilipinianaStatusBook1"
+315-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:294:13-53
+316            android:exported="false" />
+316-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:295:13-37
+317        <activity
+317-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:296:9-298:40
+318            android:name="com.example.imagepro.UserSendFeedback"
+318-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:297:13-45
+319            android:exported="false" />
+319-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:298:13-37
+320        <activity
+320-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:299:9-301:40
+321            android:name="com.example.imagepro.AdminMessages"
+321-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:300:13-42
+322            android:exported="false" />
+322-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:301:13-37
+323        <activity
+323-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:302:9-304:40
+324            android:name="com.example.imagepro.AdminFeedback"
+324-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:303:13-42
+325            android:exported="false" />
+325-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:304:13-37
+326        <activity
+326-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:305:9-307:40
+327            android:name="com.example.imagepro.BookCatalogPage"
+327-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:306:13-44
+328            android:exported="false" />
+328-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:307:13-37
+329        <activity
+329-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:308:9-310:40
+330            android:name="com.example.imagepro.AdminHomePage"
+330-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:309:13-42
+331            android:exported="false" />
+331-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:310:13-37
+332        <activity
+332-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:311:9-313:40
+333            android:name="com.example.imagepro.SignUpActivity"
+333-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:312:13-43
+334            android:exported="false" />
+334-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:313:13-37
+335        <activity
+335-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:314:9-316:40
+336            android:name="com.example.imagepro.LoginActivity"
+336-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:315:13-42
+337            android:exported="false" />
+337-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:316:13-37
+338        <activity
+338-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:317:9-319:39
+339            android:name="com.example.imagepro.CameraActivity"
+339-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:318:13-43
+340            android:exported="false" />
+340-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:319:13-37
+341        <activity
+341-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:320:9-327:20
+342            android:name="com.example.imagepro.MainActivity"
+342-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:321:13-41
+343            android:exported="true" >
+343-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:322:13-36
+344            <intent-filter>
+344-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:323:13-326:29
+345                <action android:name="android.intent.action.MAIN" />
+345-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:324:17-69
+345-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:324:25-66
+346
+347                <category android:name="android.intent.category.LAUNCHER" />
+347-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:325:17-77
+347-->C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:325:27-74
+348            </intent-filter>
+349        </activity>
+350
+351        <service
+351-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:14:9-23:19
+352            android:name="com.google.firebase.components.ComponentDiscoveryService"
+352-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:15:13-84
+353            android:directBootAware="true"
+353-->[com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+354            android:exported="false" >
+354-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:16:13-37
+355            <meta-data
+355-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:17:13-19:85
+356                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+356-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:18:17-122
+357                android:value="com.google.firebase.components.ComponentRegistrar" />
+357-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:19:17-82
+358            <meta-data
+358-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:20:13-22:85
+359                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+359-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:21:17-111
+360                android:value="com.google.firebase.components.ComponentRegistrar" />
+360-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:22:17-82
+361            <meta-data
+361-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:69:13-71:85
+362                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+362-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:70:17-109
+363                android:value="com.google.firebase.components.ComponentRegistrar" />
+363-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:71:17-82
+364            <meta-data
+364-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\711a1b30069f911410f3c7e89c221b88\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+365                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+365-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\711a1b30069f911410f3c7e89c221b88\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+366                android:value="com.google.firebase.components.ComponentRegistrar" />
+366-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\711a1b30069f911410f3c7e89c221b88\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+367            <meta-data
+367-->[com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+368                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+368-->[com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+369                android:value="com.google.firebase.components.ComponentRegistrar" />
+369-->[com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+370        </service>
+371
+372        <activity
+372-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:29:9-46:20
+373            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+373-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:30:13-80
+374            android:excludeFromRecents="true"
+374-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:31:13-46
+375            android:exported="true"
+375-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:32:13-36
+376            android:launchMode="singleTask"
+376-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:33:13-44
+377            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+377-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:34:13-72
+378            <intent-filter>
+378-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:35:13-45:29
+379                <action android:name="android.intent.action.VIEW" />
+379-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:36:17-69
+379-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:36:25-66
+380
+381                <category android:name="android.intent.category.DEFAULT" />
+381-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:38:17-76
+381-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:38:27-73
+382                <category android:name="android.intent.category.BROWSABLE" />
+382-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:39:17-78
+382-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:39:27-75
+383
+384                <data
+384-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:41:17-44:51
+385                    android:host="firebase.auth"
+385-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:42:21-49
+386                    android:path="/"
+386-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:43:21-37
+387                    android:scheme="genericidp" />
+387-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:44:21-48
+388            </intent-filter>
+389        </activity>
+390        <activity
+390-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:47:9-64:20
+391            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+391-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:48:13-79
+392            android:excludeFromRecents="true"
+392-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:49:13-46
+393            android:exported="true"
+393-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:50:13-36
+394            android:launchMode="singleTask"
+394-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:51:13-44
+395            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+395-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:52:13-72
+396            <intent-filter>
+396-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:53:13-63:29
+397                <action android:name="android.intent.action.VIEW" />
+397-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:36:17-69
+397-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:36:25-66
+398
+399                <category android:name="android.intent.category.DEFAULT" />
+399-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:38:17-76
+399-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:38:27-73
+400                <category android:name="android.intent.category.BROWSABLE" />
+400-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:39:17-78
+400-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:39:27-75
+401
+402                <data
+402-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:41:17-44:51
+403                    android:host="firebase.auth"
+403-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:42:21-49
+404                    android:path="/"
+404-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:43:21-37
+405                    android:scheme="recaptcha" />
+405-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:44:21-48
+406            </intent-filter>
+407        </activity>
+408
+409        <service
+409-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
+410            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+410-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
+411            android:enabled="true"
+411-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
+412            android:exported="false" >
+412-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
+413            <meta-data
+413-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
+414                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+414-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
+415                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+415-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
+416        </service>
+417
+418        <activity
+418-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
+419            android:name="androidx.credentials.playservices.HiddenActivity"
+419-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
+420            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+420-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
+421            android:enabled="true"
+421-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
+422            android:exported="false"
+422-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
+423            android:fitsSystemWindows="true"
+423-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
+424            android:theme="@style/Theme.Hidden" >
+424-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
+425        </activity>
+426        <activity
+426-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+427            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+427-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+428            android:excludeFromRecents="true"
+428-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+429            android:exported="false"
+429-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+430            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+430-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+431        <!--
+432            Service handling Google Sign-In user revocation. For apps that do not integrate with
+433            Google Sign-In, this service will never be started.
+434        -->
+435        <service
+435-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+436            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+436-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+437            android:exported="true"
+437-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+438            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+438-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+439            android:visibleToInstantApps="true" />
+439-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+440
+441        <activity
+441-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\csv20\.gradle\caches\8.9\transforms\82acb23a00e3bd836e8b4d088e97bc4d\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+442            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+442-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\csv20\.gradle\caches\8.9\transforms\82acb23a00e3bd836e8b4d088e97bc4d\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+443            android:exported="false"
+443-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\csv20\.gradle\caches\8.9\transforms\82acb23a00e3bd836e8b4d088e97bc4d\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+444            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+444-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\csv20\.gradle\caches\8.9\transforms\82acb23a00e3bd836e8b4d088e97bc4d\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+445
+446        <provider
+446-->[com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+447            android:name="com.google.firebase.provider.FirebaseInitProvider"
+447-->[com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+448            android:authorities="com.example.imagepro.firebaseinitprovider"
+448-->[com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+449            android:directBootAware="true"
+449-->[com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+450            android:exported="false"
+450-->[com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+451            android:initOrder="100" />
+451-->[com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+452        <provider
+452-->[androidx.emoji2:emoji2:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2f2b8f2c9b8f905f136b6ee327647449\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+453            android:name="androidx.startup.InitializationProvider"
+453-->[androidx.emoji2:emoji2:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2f2b8f2c9b8f905f136b6ee327647449\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+454            android:authorities="com.example.imagepro.androidx-startup"
+454-->[androidx.emoji2:emoji2:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2f2b8f2c9b8f905f136b6ee327647449\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+455            android:exported="false" >
+455-->[androidx.emoji2:emoji2:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2f2b8f2c9b8f905f136b6ee327647449\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+456            <meta-data
+456-->[androidx.emoji2:emoji2:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2f2b8f2c9b8f905f136b6ee327647449\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+457                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+457-->[androidx.emoji2:emoji2:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2f2b8f2c9b8f905f136b6ee327647449\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+458                android:value="androidx.startup" />
+458-->[androidx.emoji2:emoji2:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2f2b8f2c9b8f905f136b6ee327647449\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+459            <meta-data
+459-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\746d61179a34ac7d69b9578a6352ea45\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+460                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+460-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\746d61179a34ac7d69b9578a6352ea45\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+461                android:value="androidx.startup" />
+461-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\746d61179a34ac7d69b9578a6352ea45\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+462            <meta-data
+462-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+463                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+463-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+464                android:value="androidx.startup" />
+464-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+465        </provider>
+466
+467        <meta-data
+467-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2bdfeda9373e8eadf068530e4d35cb93\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+468            android:name="com.google.android.gms.version"
+468-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2bdfeda9373e8eadf068530e4d35cb93\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+469            android:value="@integer/google_play_services_version" />
+469-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2bdfeda9373e8eadf068530e4d35cb93\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+470
+471        <receiver
+471-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+472            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+472-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+473            android:directBootAware="false"
+473-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+474            android:enabled="true"
+474-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+475            android:exported="true"
+475-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+476            android:permission="android.permission.DUMP" >
+476-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+477            <intent-filter>
+477-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+478                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+478-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+478-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+479            </intent-filter>
+480            <intent-filter>
+480-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+481                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+481-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+481-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+482            </intent-filter>
+483            <intent-filter>
+483-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+484                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+484-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+484-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+485            </intent-filter>
+486            <intent-filter>
+486-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+487                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+487-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+487-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+488            </intent-filter>
+489        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+490        <activity
+490-->[com.google.android.play:core-common:2.0.3] C:\Users\csv20\.gradle\caches\8.9\transforms\bf16126198d80f7d6674ac28a9b69509\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+491            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+491-->[com.google.android.play:core-common:2.0.3] C:\Users\csv20\.gradle\caches\8.9\transforms\bf16126198d80f7d6674ac28a9b69509\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:15:13-93
+492            android:exported="false"
+492-->[com.google.android.play:core-common:2.0.3] C:\Users\csv20\.gradle\caches\8.9\transforms\bf16126198d80f7d6674ac28a9b69509\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:16:13-37
+493            android:stateNotNeeded="true"
+493-->[com.google.android.play:core-common:2.0.3] C:\Users\csv20\.gradle\caches\8.9\transforms\bf16126198d80f7d6674ac28a9b69509\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:17:13-42
+494            android:theme="@style/Theme.PlayCore.Transparent" />
+494-->[com.google.android.play:core-common:2.0.3] C:\Users\csv20\.gradle\caches\8.9\transforms\bf16126198d80f7d6674ac28a9b69509\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:18:13-62
+495    </application>
+496
+497</manifest>
