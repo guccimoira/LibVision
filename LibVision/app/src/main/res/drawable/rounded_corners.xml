@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Outline color and width -->
+    <stroke
+        android:width="2dp"
+        android:color="#D3D3D3" /> <!-- Light grey outline color -->
+
+    <!-- Corner radius to create the rounded edges -->
+    <corners android:radius="14dp" />
+
+    <!-- Background color -->
+    <solid android:color="@android:color/white" />
+
+    <!-- Optional padding -->
+    <padding
+        android:left="10dp"
+        android:right="10dp"
+        android:top="5dp"
+        android:bottom="5dp" />
+</shape>
