@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "973294372379",
+    "project_id": "libvision-81529",
+    "storage_bucket": "libvision-81529.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973294372379:android:3a76cf23dcb55773b01abe",
+        "android_client_info": {
+          "package_name": "com.example.imagepro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApuPjyMubYhJ2OmQC_bK01evPJQ-Mbzi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
