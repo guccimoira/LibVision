@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F6F1"
+    tools:context=".BookCatalogPage">
+
+    <!-- Left and Right Guidelines -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="24dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="24dp" />
+
+    <!-- Back Button -->
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="70dp"
+        android:background="@null"
+        android:src="@drawable/back_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Frame Layout for the Content -->
+    <FrameLayout
+        android:id="@+id/background_frame"
+        android:layout_width="340dp"
+        android:layout_height="590dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_frame_bookcatalog"
+        app:layout_constraintEnd_toEndOf="@id/guidelineRight"
+        app:layout_constraintStart_toStartOf="@id/guidelineLeft"
+        app:layout_constraintTop_toBottomOf="@+id/back_button">
+
+        <!-- Book Catalog Title -->
+        <TextView
+            android:id="@+id/book_catalog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/book_catalog_page_text"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#2E2E2E"
+            android:gravity="center"
+            android:padding="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Filipiniana Button -->
+        <Button
+            android:id="@+id/filipiniana_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E2E2D8"
+            android:text="@string/filipiniana_section"
+            android:textSize="15sp"
+            android:textColor="#2E2E2E"
+            android:textAllCaps="false"
+            android:padding="10dp"
+            android:layout_marginTop="110dp"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Periodicals Button -->
+        <Button
+            android:id="@+id/periodicals_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E2E2D8"
+            android:text="@string/periodicals_section"
+            android:textSize="15sp"
+            android:textColor="#2E2E2E"
+            android:textAllCaps="false"
+            android:padding="10dp"
+            android:layout_marginTop="165dp"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Circulation Button -->
+        <Button
+            android:id="@+id/circulation_section_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E2E2D8"
+            android:text="@string/circulation_section"
+            android:textSize="15sp"
+            android:textColor="#2E2E2E"
+            android:textAllCaps="false"
+            android:padding="10dp"
+            android:layout_marginTop="220dp"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Health Sciences Button -->
+        <Button
+            android:id="@+id/health_science_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E2E2D8"
+            android:text="@string/health_sciences_library"
+            android:textSize="15sp"
+            android:textColor="#2E2E2E"
+            android:textAllCaps="false"
+            android:padding="10dp"
+            android:layout_marginTop="275dp"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Law Library Button -->
+        <Button
+            android:id="@+id/law_library_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E2E2D8"
+            android:text="@string/law_library"
+            android:textSize="15sp"
+            android:textColor="#2E2E2E"
+            android:textAllCaps="false"
+            android:padding="10dp"
+            android:layout_marginTop="330dp"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Graduate School Button -->
+        <Button
+            android:id="@+id/graduate_school_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E2E2D8"
+            android:text="@string/graduate_school_library"
+            android:textSize="15sp"
+            android:textColor="#2E2E2E"
+            android:textAllCaps="false"
+            android:padding="10dp"
+            android:layout_marginTop="385dp"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Medical Library Button -->
+        <Button
+            android:id="@+id/medical_library_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E2E2D8"
+            android:text="@string/medical_library"
+            android:textSize="15sp"
+            android:textColor="#2E2E2E"
+            android:textAllCaps="false"
+            android:padding="10dp"
+            android:layout_marginTop="440dp"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Reference Section Button -->
+        <Button
+            android:id="@+id/reference_section_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E2E2D8"
+            android:text="@string/reference_section"
+            android:textSize="15sp"
+            android:textColor="#2E2E2E"
+            android:textAllCaps="false"
+            android:padding="10dp"
+            android:layout_marginTop="495dp"
+            android:layout_gravity="center_horizontal" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

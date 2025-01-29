@@ -1,0 +1,265 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F6F1"
+    tools:context=".user_homepage">
+
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/title_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="75dp"
+        android:text="Welcome to"
+        android:textColor="@color/dark_blue"
+        android:textSize="19sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!-- App Name -->
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="3dp"
+        android:text="LibVision"
+        android:textColor="@color/dark_blue"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_welcome" />
+
+
+    <!-- Scrollable Container -->
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@id/app_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/border_manual">
+
+
+        <!-- LinearLayout for Content -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <!-- Header for Instructions -->
+            <TextView
+                android:id="@+id/instructions_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How to Locate a Book?"
+                android:textSize="24sp"
+                android:textColor="@color/dark_blue"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp" />
+
+
+            <!-- Step 1 -->
+            <TextView
+                android:id="@+id/step_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Search for a book"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/dark_blue"
+                android:layout_marginTop="8dp" />
+
+
+            <TextView
+                android:id="@+id/step_one_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter the title of the book you want to find in the library using the search bar."
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/dark_blue"
+                android:justificationMode="inter_word"/>
+
+
+            <!-- Step 2 -->
+            <TextView
+                android:id="@+id/step_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Scan a Visual Marker"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/dark_blue"
+                android:layout_marginTop="12dp" />
+
+
+            <TextView
+                android:id="@+id/step_two_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tap the Locate Book button on the book profile to open the visual scanner. Use it to scan the designated visual marker, which will trigger AR navigation to guide you to the book's location."
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/dark_blue" />
+
+
+            <!-- List of Visual Markers Section -->
+            <TextView
+                android:id="@+id/visual_markers_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="List of Visual Markers:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/dark_blue"
+                android:layout_marginTop="16dp" />
+
+
+            <!-- Floor 1 Markers -->
+            <TextView
+                android:id="@+id/floor_one_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ground Floor:"
+                android:textSize="16sp"
+                android:textColor="@color/dark_blue"
+                android:layout_marginTop="8dp" />
+
+
+            <GridLayout
+                android:id="@+id/floor_one_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="1"
+                android:rowCount="3"
+                android:layout_marginTop="8dp">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="89dp"
+                    android:src="@drawable/fili"
+                    android:layout_margin="4dp" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="89dp"
+                    android:src="@drawable/perio"
+                    android:layout_margin="4dp" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="89dp"
+                    android:src="@drawable/health"
+                    android:layout_margin="4dp" />
+            </GridLayout>
+
+
+            <!-- Floor 2 Markers -->
+            <TextView
+                android:id="@+id/floor_two_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Floor:"
+                android:textSize="16sp"
+                android:textColor="@color/dark_blue"
+                android:layout_marginTop="12dp" />
+
+
+            <GridLayout
+                android:id="@+id/floor_two_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="1"
+                android:rowCount="2"
+                android:layout_marginTop="8dp">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="89dp"
+                    android:src="@drawable/ref"
+                    android:layout_margin="4dp" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="89dp"
+                    android:src="@drawable/circ"
+                    android:layout_margin="4dp" />
+            </GridLayout>
+
+
+            <!-- Floor 3 Markers -->
+            <TextView
+                android:id="@+id/floor_three_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Second Floor:"
+                android:textSize="16sp"
+                android:textColor="@color/dark_blue"
+                android:layout_marginTop="12dp" />
+
+
+            <GridLayout
+                android:id="@+id/floor_three_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="1"
+                android:rowCount="1"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="12dp">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="89dp"
+                    android:src="@drawable/law"
+                    android:layout_margin="4dp" />
+            </GridLayout>
+
+
+            <!-- Header for LED Instructions -->
+            <TextView
+                android:id="@+id/instructions_twoheader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Control the LED Book Locator"
+                android:textSize="24sp"
+                android:textColor="@color/dark_blue"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp" />
+
+
+            <TextView
+                android:id="@+id/step_three_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tap the Control LED button on the book profile to go to the LED control page. There, you can activate the book locator, causing the LED light to illuminate and making it easier to spot the book on the shelves."
+                android:textSize="14sp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/dark_blue"
+                android:justificationMode="inter_word"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
