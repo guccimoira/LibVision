@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.imagepro"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="34" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Permissions and Features -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+
+    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+    <!-- <uses-sdk android:minSdkVersion="21" /> -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <permission
+        android:name="com.example.imagepro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.imagepro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Application Configuration -->
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ImagePro" >
+
+        <!-- Activities -->
+        <activity
+            android:name="com.example.imagepro.LibrarianProfile"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.EditProfile"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.TheAboutUs"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.TheLibrarians"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.user_homepage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCMedicalStatusBook10"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCMedicalStatusBook9"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCMedicalStatusBook8"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCMedicalStatusBook7"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCMedicalStatusBook6"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCMedicalStatusBook5"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCMedicalStatusBook4"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCMedicalStatusBook3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCMedicalStatusBook2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCMedicalStatusBook1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.MedicalLibraryScrollingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_medical_library_scrolling"
+            android:theme="@style/Theme.LibVision.NoActionBar" />
+        <activity
+            android:name="com.example.imagepro.BCReferenceStatusBook10"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCReferenceStatusBook9"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCReferenceStatusBook8"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCReferenceStatusBook7"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCReferenceStatusBook6"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCReferenceStatusBook5"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCReferenceStatusBook4"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCReferenceStatusBook3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCReferenceStatusBook2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCReferenceStatusBook1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCLawStatusBook10"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCLawStatusBook9"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCLawStatusBook8"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCLawStatusBook7"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCLawStatusBook6"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCLawStatusBook5"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCLawStatusBook4"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCLawStatusBook3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCLawStatusBook2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCLawStatusBook1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCHealthStatusBook10"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCHealthStatusBook9"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCHealthStatusBook8"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCHealthStatusBook7"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCHealthStatusBook6"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCHealthStatusBook5"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCHealthStatusBook4"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCHealthStatusBook3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCHealthStatusBook2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCHealthStatusBook1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCCirculationStatusBook10"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCCirculationStatusBook9"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCCirculationStatusBook8"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCCirculationStatusBook7"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCCirculationStatusBook6"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCCirculationStatusBook5"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCCirculationStatusBook4"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCCirculationStatusBook3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCCirculationStatusBook2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCCirculationStatusBook1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCPeriodicalsStatusBook10"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCPeriodicalsStatusBook9"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCPeriodicalsStatusBook8"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCPeriodicalsStatusBook7"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCPeriodicalsStatusBook6"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCPeriodicalsStatusBook5"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCPeriodicalsStatusBook4"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCPeriodicalsStatusBook3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCPeriodicalsStatusBook1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCPeriodicalsStatusBook2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.ReferenceSectionScrollingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_reference_section_scrolling"
+            android:theme="@style/Theme.LibVision.NoActionBar" />
+        <activity
+            android:name="com.example.imagepro.LawLibraryScrollingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_law_library_scrolling"
+            android:theme="@style/Theme.LibVision.NoActionBar" />
+        <activity
+            android:name="com.example.imagepro.HealthScienceScrollingActivity"
+            android:exported="false"
+            android:label="HealthScienceScrollingActivity"
+            android:theme="@style/Theme.LibVision.NoActionBar" />
+        <activity
+            android:name="com.example.imagepro.CirculationSectionScrollingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_circulation_section_scrolling"
+            android:theme="@style/Theme.LibVision.NoActionBar" />
+        <activity
+            android:name="com.example.imagepro.BCFilipinianaStatusBook10"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCFilipinianaStatusBook9"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCFilipinianaStatusBook8"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCFilipinianaStatusBook7"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCFilipinianaStatusBook6"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCFilipinianaStatusBook5"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCFilipinianaStatusBook4"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCFilipinianaStatusBook3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BCFilipinianaStatusBook2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.LedControl"
+            android:exported="true" />
+        <activity
+            android:name="com.example.imagepro.PeriodicalsSectionScrollingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_periodicals_section_scrolling"
+            android:theme="@style/Theme.LibVision.NoActionBar" />
+        <activity
+            android:name="com.example.imagepro.FilipinianaSectionScrollingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_circulation_scrolling"
+            android:theme="@style/Theme.LibVision.NoActionBar" />
+        <activity
+            android:name="com.example.imagepro.BCFilipinianaStatusBook1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.UserSendFeedback"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.AdminMessages"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.AdminFeedback"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.BookCatalogPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.AdminHomePage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.CameraActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.imagepro.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <activity
+            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="firebase.auth"
+                    android:path="/"
+                    android:scheme="genericidp" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="firebase.auth"
+                    android:path="/"
+                    android:scheme="recaptcha" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+            android:enabled="true"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+        </service>
+
+        <activity
+            android:name="androidx.credentials.playservices.HiddenActivity"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+            android:enabled="true"
+            android:exported="false"
+            android:fitsSystemWindows="true"
+            android:theme="@style/Theme.Hidden" >
+        </activity>
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+            android:visibleToInstantApps="true" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.imagepro.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.imagepro.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP" >
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+            </intent-filter>
+        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+        <activity
+            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+            android:exported="false"
+            android:stateNotNeeded="true"
+            android:theme="@style/Theme.PlayCore.Transparent" />
+    </application>
+
+</manifest>
