@@ -55,9 +55,6 @@
             android:name="com.example.imagepro.LibrarianProfile"
             android:exported="false" />
         <activity
-            android:name="com.example.imagepro.EditProfile"
-            android:exported="false" />
-        <activity
             android:name="com.example.imagepro.TheAboutUs"
             android:exported="false" />
         <activity
