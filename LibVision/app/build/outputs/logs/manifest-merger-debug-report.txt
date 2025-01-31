@@ -1,0 +1,1241 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:2:1-331:12
+INJECTED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:2:1-331:12
+INJECTED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:2:1-331:12
+INJECTED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:2:1-331:12
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.9.0] C:\Users\csv20\.gradle\caches\8.9\transforms\a4094baf664220a77b3be6aa0824629d\transformed\jetified-tensorflow-lite-gpu-2.9.0\AndroidManifest.xml:2:1-12:12
+MERGED from [org.tensorflow:tensorflow-lite-task-text:0.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\ba301e1544345f56616d005f7bc9fb62\transformed\jetified-tensorflow-lite-task-text-0.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [org.tensorflow:tensorflow-lite-support:0.4.1] C:\Users\csv20\.gradle\caches\8.9\transforms\1de338724936abbd7b4b68eef92810c1\transformed\jetified-tensorflow-lite-support-0.4.1\AndroidManifest.xml:2:1-5:12
+MERGED from [org.tensorflow:tensorflow-lite-task-vision:0.4.1] C:\Users\csv20\.gradle\caches\8.9\transforms\e1207f80095b44a926fc8cb7b6dc98b3\transformed\jetified-tensorflow-lite-task-vision-0.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\csv20\.gradle\caches\8.9\transforms\81335119a568adab27dfc9fa2e61a412\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\csv20\.gradle\caches\8.9\transforms\1f4b0b37224efbd58530b1b6cc85a0df\transformed\constraintlayout-2.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\ca66ec4f0fb00decdfe1e74d5e290681\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\898b79dd632f89eb91b6f092b9b23fc3\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [:openCVLibrary3413] C:\Users\csv20\Downloads\LibVision2\LibVision2\openCVLibrary3413\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\56ebdbb5ae469b13962204aed20b50f2\transformed\jetified-firebase-appcheck-interop-17.0.0\AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\csv20\.gradle\caches\8.9\transforms\a270f518fc86375d778c40e052a48b07\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\0664be1f581d7356afe6d9b17a2a5539\transformed\jetified-credentials-1.2.0-rc01\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\csv20\.gradle\caches\8.9\transforms\756a49b8d17d9f24c9cacea7977d91fb\transformed\jetified-play-services-auth-api-phone-18.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\7505a9c84e3528aaf5d647ec4b539c89\transformed\jetified-play-services-fido-20.1.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\csv20\.gradle\caches\8.9\transforms\de2d637606575f09379bd4a8cf3f2bf2\transformed\jetified-play-services-auth-base-18.0.4\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\csv20\.gradle\caches\8.9\transforms\82acb23a00e3bd836e8b4d088e97bc4d\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\3d28088c251160997077d94e075ec889\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\711a1b30069f911410f3c7e89c221b88\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\54d150a8db94abcdd6725ce095f90ca2\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\csv20\.gradle\caches\8.9\transforms\7bfc9b1186592f65c9689a902e596879\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\0fd80a46680ed1fef73eef57e0d69f54\transformed\jetified-integrity-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\08d5b9915169d75c7a01facbcf244b02\transformed\jetified-core-ktx-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\1191d6c53fda6af8fabd389cd7ca2ecd\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2f2b8f2c9b8f905f136b6ee327647449\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\9bd428bc8c6ad1ca1c5fbedc57e22136\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\0e77726ea2555ceec6be9bb5043ca837\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6d33bfc82c3806bdb68297e028880cbd\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\76f61d2a920cc5260371845bf3089e46\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\bdc2906be2ce4c017e657253178bfafe\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\8ee4efb7fe8f0d5a3f9255207ec5d21b\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\ffa8e7d0ac45c1ad41d6e60831c2d363\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\004e734b5c0f9f633880fc498231237b\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\9b044a670a8b32ede52a9ce242042230\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d2170b2ebd27b5de9bcb5e8cf6ec8351\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\5f5075382e38990acc42f5dc56d900c7\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\9de7e3bba61c63cd060acfd882b1c7f0\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\32c5d5592cbced18c50b69bee66180ef\transformed\core-1.13.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\7718eea57e1246b05e60788edec703e9\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\82f885bd2ecc0d007ad81c5313e906c7\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\746d61179a34ac7d69b9578a6352ea45\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\0b6268a3f1260fa460bb5f2e61ad3ca6\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\488407da43256b20f610e583595b6929\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\308d0c5333bbdf9152339e707e3251a1\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\csv20\.gradle\caches\8.9\transforms\93f198a881f0865893f4056b7b37ed88\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\csv20\.gradle\caches\8.9\transforms\fa00350a6e363be97ab35694797b12d4\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2bdfeda9373e8eadf068530e4d35cb93\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\csv20\.gradle\caches\8.9\transforms\f7b0b8e4826151d4f0fde7ece106bc6f\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\csv20\.gradle\caches\8.9\transforms\6456e82b5f8860046280c75ed9574e77\transformed\jetified-activity-1.9.3\AndroidManifest.xml:17:1-22:12
+MERGED from [org.tensorflow:tensorflow-lite-support-api:0.4.1] C:\Users\csv20\.gradle\caches\8.9\transforms\9033d7918491d6f7a408f1fc0732c4fe\transformed\jetified-tensorflow-lite-support-api-0.4.1\AndroidManifest.xml:2:1-5:12
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\csv20\.gradle\caches\8.9\transforms\f5deb16a0f4272be5ffd9d97fddaddb6\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:2:1-9:12
+MERGED from [org.tensorflow:tensorflow-lite:2.9.0] C:\Users\csv20\.gradle\caches\8.9\transforms\75a0468594a8bfeac4e8e3104c7eca26\transformed\jetified-tensorflow-lite-2.9.0\AndroidManifest.xml:2:1-12:12
+MERGED from [org.tensorflow:tensorflow-lite-task-base:0.4.1] C:\Users\csv20\.gradle\caches\8.9\transforms\45b185204477c227851fafa6ae9c98c4\transformed\jetified-tensorflow-lite-task-base-0.4.1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\eabbe420ef7486d998537c32b837fbc8\transformed\jetified-googleid-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\1ef3a90e6db74461d02942b37be1b4f3\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\8dcef497d48db54aa31fc40d600529b7\transformed\jetified-firebase-components-18.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\054b0f149819a279b086af7251ad60a8\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\77a733bcb0c5f0acd1891d9bb3a3ca38\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\b478fe2317caf6f8da89da6a8587c148\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\b75081d759d4d0661067dd98aaf00305\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d3fb90e1b988627b08553c5f202e6c71\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\e0cfc2f1318aa9d743aaf78228a8a786\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\6e326e57d992d9a53732c4a53fe9a6ef\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2dc212cba2a31f8fb70db43f771f87f8\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\f3b8cfd6ca7b1bb9db1b1c3ecfd48fb4\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\29fd2ee63e3ba22ca86cbdb18bc5b9f2\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\4dd46e2fec18862f7f0a79630eb07260\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [org.tensorflow:tensorflow-lite-api:2.9.0] C:\Users\csv20\.gradle\caches\8.9\transforms\c04ce33d00ca9a17b1e26d3b41797424\transformed\jetified-tensorflow-lite-api-2.9.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\csv20\.gradle\caches\8.9\transforms\6ab61d3ac2ff3011853a718dedd40df7\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\csv20\.gradle\caches\8.9\transforms\bf16126198d80f7d6674ac28a9b69509\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:2:1-21:12
+	package
+		INJECTED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:5:5-66
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\csv20\.gradle\caches\8.9\transforms\7bfc9b1186592f65c9689a902e596879\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\csv20\.gradle\caches\8.9\transforms\7bfc9b1186592f65c9689a902e596879\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:8:22-62
+uses-feature#android.hardware.camera
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:9:5-11:36
+	android:required
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:11:9-33
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:10:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:12:5-14:36
+	android:required
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:14:9-33
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:13:9-57
+uses-feature#android.hardware.camera.front
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:15:5-17:36
+	android:required
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:17:9-33
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:16:9-53
+uses-feature#android.hardware.camera.front.autofocus
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:18:5-20:36
+	android:required
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:20:9-33
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:19:9-63
+application
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:23:5-329:19
+INJECTED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:23:5-329:19
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.9.0] C:\Users\csv20\.gradle\caches\8.9\transforms\a4094baf664220a77b3be6aa0824629d\transformed\jetified-tensorflow-lite-gpu-2.9.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.9.0] C:\Users\csv20\.gradle\caches\8.9\transforms\a4094baf664220a77b3be6aa0824629d\transformed\jetified-tensorflow-lite-gpu-2.9.0\AndroidManifest.xml:10:5-20
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\csv20\.gradle\caches\8.9\transforms\81335119a568adab27dfc9fa2e61a412\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\csv20\.gradle\caches\8.9\transforms\81335119a568adab27dfc9fa2e61a412\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\csv20\.gradle\caches\8.9\transforms\1f4b0b37224efbd58530b1b6cc85a0df\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\csv20\.gradle\caches\8.9\transforms\1f4b0b37224efbd58530b1b6cc85a0df\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\56ebdbb5ae469b13962204aed20b50f2\transformed\jetified-firebase-appcheck-interop-17.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\56ebdbb5ae469b13962204aed20b50f2\transformed\jetified-firebase-appcheck-interop-17.0.0\AndroidManifest.xml:23:5-20
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:23:5-42:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:23:5-42:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\7505a9c84e3528aaf5d647ec4b539c89\transformed\jetified-play-services-fido-20.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\7505a9c84e3528aaf5d647ec4b539c89\transformed\jetified-play-services-fido-20.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\csv20\.gradle\caches\8.9\transforms\82acb23a00e3bd836e8b4d088e97bc4d\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\csv20\.gradle\caches\8.9\transforms\82acb23a00e3bd836e8b4d088e97bc4d\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\711a1b30069f911410f3c7e89c221b88\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\711a1b30069f911410f3c7e89c221b88\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\54d150a8db94abcdd6725ce095f90ca2\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\54d150a8db94abcdd6725ce095f90ca2\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\0fd80a46680ed1fef73eef57e0d69f54\transformed\jetified-integrity-1.3.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\0fd80a46680ed1fef73eef57e0d69f54\transformed\jetified-integrity-1.3.0\AndroidManifest.xml:5:5-6:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2f2b8f2c9b8f905f136b6ee327647449\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2f2b8f2c9b8f905f136b6ee327647449\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\32c5d5592cbced18c50b69bee66180ef\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\32c5d5592cbced18c50b69bee66180ef\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\746d61179a34ac7d69b9578a6352ea45\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\746d61179a34ac7d69b9578a6352ea45\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\csv20\.gradle\caches\8.9\transforms\fa00350a6e363be97ab35694797b12d4\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\csv20\.gradle\caches\8.9\transforms\fa00350a6e363be97ab35694797b12d4\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2bdfeda9373e8eadf068530e4d35cb93\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2bdfeda9373e8eadf068530e4d35cb93\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [org.tensorflow:tensorflow-lite:2.9.0] C:\Users\csv20\.gradle\caches\8.9\transforms\75a0468594a8bfeac4e8e3104c7eca26\transformed\jetified-tensorflow-lite-2.9.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.9.0] C:\Users\csv20\.gradle\caches\8.9\transforms\75a0468594a8bfeac4e8e3104c7eca26\transformed\jetified-tensorflow-lite-2.9.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-task-base:0.4.1] C:\Users\csv20\.gradle\caches\8.9\transforms\45b185204477c227851fafa6ae9c98c4\transformed\jetified-tensorflow-lite-task-base-0.4.1\AndroidManifest.xml:4:4-5:18
+MERGED from [org.tensorflow:tensorflow-lite-task-base:0.4.1] C:\Users\csv20\.gradle\caches\8.9\transforms\45b185204477c227851fafa6ae9c98c4\transformed\jetified-tensorflow-lite-task-base-0.4.1\AndroidManifest.xml:4:4-5:18
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\b478fe2317caf6f8da89da6a8587c148\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\b478fe2317caf6f8da89da6a8587c148\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\6e326e57d992d9a53732c4a53fe9a6ef\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\6e326e57d992d9a53732c4a53fe9a6ef\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [org.tensorflow:tensorflow-lite-api:2.9.0] C:\Users\csv20\.gradle\caches\8.9\transforms\c04ce33d00ca9a17b1e26d3b41797424\transformed\jetified-tensorflow-lite-api-2.9.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-api:2.9.0] C:\Users\csv20\.gradle\caches\8.9\transforms\c04ce33d00ca9a17b1e26d3b41797424\transformed\jetified-tensorflow-lite-api-2.9.0\AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\csv20\.gradle\caches\8.9\transforms\6ab61d3ac2ff3011853a718dedd40df7\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\csv20\.gradle\caches\8.9\transforms\6ab61d3ac2ff3011853a718dedd40df7\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\csv20\.gradle\caches\8.9\transforms\bf16126198d80f7d6674ac28a9b69509\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\csv20\.gradle\caches\8.9\transforms\bf16126198d80f7d6674ac28a9b69509\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:11:5-19:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\32c5d5592cbced18c50b69bee66180ef\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:28:9-35
+	android:label
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:26:9-41
+	android:roundIcon
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:27:9-47
+	android:icon
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:25:9-36
+	android:allowBackup
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:24:9-35
+	android:theme
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:29:9-46
+activity#com.example.imagepro.LibrarianProfile
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:33:9-35:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:34:13-45
+activity#com.example.imagepro.EditProfile
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:37:13-40
+activity#com.example.imagepro.TheAboutUs
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:39:9-41:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:40:13-39
+activity#com.example.imagepro.TheLibrarians
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:42:9-44:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:43:13-42
+activity#com.example.imagepro.user_homepage
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:46:13-42
+activity#com.example.imagepro.BCMedicalStatusBook10
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:48:9-50:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:49:13-50
+activity#com.example.imagepro.BCMedicalStatusBook9
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:51:9-53:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:52:13-49
+activity#com.example.imagepro.BCMedicalStatusBook8
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:54:9-56:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:55:13-49
+activity#com.example.imagepro.BCMedicalStatusBook7
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:57:9-59:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:59:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:58:13-49
+activity#com.example.imagepro.BCMedicalStatusBook6
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:60:9-62:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:62:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:61:13-49
+activity#com.example.imagepro.BCMedicalStatusBook5
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:63:9-65:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:65:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:64:13-49
+activity#com.example.imagepro.BCMedicalStatusBook4
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:66:9-68:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:68:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:67:13-49
+activity#com.example.imagepro.BCMedicalStatusBook3
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:69:9-71:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:71:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:70:13-49
+activity#com.example.imagepro.BCMedicalStatusBook2
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:72:9-74:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:74:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:73:13-49
+activity#com.example.imagepro.BCMedicalStatusBook1
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:75:9-77:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:77:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:76:13-49
+activity#com.example.imagepro.MedicalLibraryScrollingActivity
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:78:9-82:66
+	android:label
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:81:13-77
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:80:13-37
+	android:theme
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:82:13-63
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:79:13-60
+activity#com.example.imagepro.BCReferenceStatusBook10
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:83:9-85:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:85:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:84:13-52
+activity#com.example.imagepro.BCReferenceStatusBook9
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:86:9-88:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:88:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:87:13-51
+activity#com.example.imagepro.BCReferenceStatusBook8
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:89:9-91:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:91:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:90:13-51
+activity#com.example.imagepro.BCReferenceStatusBook7
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:92:9-94:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:94:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:93:13-51
+activity#com.example.imagepro.BCReferenceStatusBook6
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:95:9-97:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:97:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:96:13-51
+activity#com.example.imagepro.BCReferenceStatusBook5
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:98:9-100:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:100:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:99:13-51
+activity#com.example.imagepro.BCReferenceStatusBook4
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:101:9-103:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:103:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:102:13-51
+activity#com.example.imagepro.BCReferenceStatusBook3
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:104:9-106:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:106:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:105:13-51
+activity#com.example.imagepro.BCReferenceStatusBook2
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:107:9-109:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:109:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:108:13-51
+activity#com.example.imagepro.BCReferenceStatusBook1
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:110:9-112:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:112:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:111:13-51
+activity#com.example.imagepro.BCLawStatusBook10
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:113:9-115:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:115:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:114:13-46
+activity#com.example.imagepro.BCLawStatusBook9
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:116:9-118:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:118:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:117:13-45
+activity#com.example.imagepro.BCLawStatusBook8
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:119:9-121:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:121:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:120:13-45
+activity#com.example.imagepro.BCLawStatusBook7
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:122:9-124:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:124:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:123:13-45
+activity#com.example.imagepro.BCLawStatusBook6
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:125:9-127:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:127:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:126:13-45
+activity#com.example.imagepro.BCLawStatusBook5
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:128:9-130:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:130:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:129:13-45
+activity#com.example.imagepro.BCLawStatusBook4
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:131:9-133:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:133:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:132:13-45
+activity#com.example.imagepro.BCLawStatusBook3
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:134:9-136:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:136:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:135:13-45
+activity#com.example.imagepro.BCLawStatusBook2
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:137:9-139:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:139:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:138:13-45
+activity#com.example.imagepro.BCLawStatusBook1
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:140:9-142:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:142:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:141:13-45
+activity#com.example.imagepro.BCHealthStatusBook10
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:143:9-145:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:145:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:144:13-49
+activity#com.example.imagepro.BCHealthStatusBook9
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:146:9-148:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:148:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:147:13-48
+activity#com.example.imagepro.BCHealthStatusBook8
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:149:9-151:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:151:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:150:13-48
+activity#com.example.imagepro.BCHealthStatusBook7
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:152:9-154:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:154:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:153:13-48
+activity#com.example.imagepro.BCHealthStatusBook6
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:155:9-157:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:157:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:156:13-48
+activity#com.example.imagepro.BCHealthStatusBook5
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:158:9-160:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:160:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:159:13-48
+activity#com.example.imagepro.BCHealthStatusBook4
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:161:9-163:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:163:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:162:13-48
+activity#com.example.imagepro.BCHealthStatusBook3
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:164:9-166:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:166:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:165:13-48
+activity#com.example.imagepro.BCHealthStatusBook2
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:167:9-169:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:169:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:168:13-48
+activity#com.example.imagepro.BCHealthStatusBook1
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:170:9-172:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:172:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:171:13-48
+activity#com.example.imagepro.BCCirculationStatusBook10
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:173:9-175:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:175:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:174:13-54
+activity#com.example.imagepro.BCCirculationStatusBook9
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:176:9-178:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:178:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:177:13-53
+activity#com.example.imagepro.BCCirculationStatusBook8
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:179:9-181:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:181:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:180:13-53
+activity#com.example.imagepro.BCCirculationStatusBook7
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:182:9-184:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:184:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:183:13-53
+activity#com.example.imagepro.BCCirculationStatusBook6
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:185:9-187:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:187:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:186:13-53
+activity#com.example.imagepro.BCCirculationStatusBook5
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:188:9-190:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:190:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:189:13-53
+activity#com.example.imagepro.BCCirculationStatusBook4
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:191:9-193:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:193:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:192:13-53
+activity#com.example.imagepro.BCCirculationStatusBook3
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:194:9-196:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:196:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:195:13-53
+activity#com.example.imagepro.BCCirculationStatusBook2
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:197:9-199:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:199:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:198:13-53
+activity#com.example.imagepro.BCCirculationStatusBook1
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:200:9-202:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:202:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:201:13-53
+activity#com.example.imagepro.BCPeriodicalsStatusBook10
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:203:9-205:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:205:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:204:13-54
+activity#com.example.imagepro.BCPeriodicalsStatusBook9
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:206:9-208:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:208:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:207:13-53
+activity#com.example.imagepro.BCPeriodicalsStatusBook8
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:209:9-211:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:211:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:210:13-53
+activity#com.example.imagepro.BCPeriodicalsStatusBook7
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:212:9-214:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:214:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:213:13-53
+activity#com.example.imagepro.BCPeriodicalsStatusBook6
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:215:9-217:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:217:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:216:13-53
+activity#com.example.imagepro.BCPeriodicalsStatusBook5
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:218:9-220:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:220:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:219:13-53
+activity#com.example.imagepro.BCPeriodicalsStatusBook4
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:221:9-223:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:223:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:222:13-53
+activity#com.example.imagepro.BCPeriodicalsStatusBook3
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:224:9-226:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:226:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:225:13-53
+activity#com.example.imagepro.BCPeriodicalsStatusBook1
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:227:9-229:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:229:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:228:13-53
+activity#com.example.imagepro.BCPeriodicalsStatusBook2
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:230:9-232:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:232:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:231:13-53
+activity#com.example.imagepro.ReferenceSectionScrollingActivity
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:233:9-237:66
+	android:label
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:236:13-79
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:235:13-37
+	android:theme
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:237:13-63
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:234:13-62
+activity#com.example.imagepro.LawLibraryScrollingActivity
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:238:9-242:66
+	android:label
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:241:13-73
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:240:13-37
+	android:theme
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:242:13-63
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:239:13-56
+activity#com.example.imagepro.HealthScienceScrollingActivity
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:243:9-247:66
+	android:label
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:246:13-59
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:245:13-37
+	android:theme
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:247:13-63
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:244:13-59
+activity#com.example.imagepro.CirculationSectionScrollingActivity
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:248:9-252:66
+	android:label
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:251:13-81
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:250:13-37
+	android:theme
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:252:13-63
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:249:13-64
+activity#com.example.imagepro.BCFilipinianaStatusBook10
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:253:9-255:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:255:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:254:13-54
+activity#com.example.imagepro.BCFilipinianaStatusBook9
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:256:9-258:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:258:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:257:13-53
+activity#com.example.imagepro.BCFilipinianaStatusBook8
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:259:9-261:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:261:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:260:13-53
+activity#com.example.imagepro.BCFilipinianaStatusBook7
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:262:9-264:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:264:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:263:13-53
+activity#com.example.imagepro.BCFilipinianaStatusBook6
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:265:9-267:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:267:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:266:13-53
+activity#com.example.imagepro.BCFilipinianaStatusBook5
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:268:9-270:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:270:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:269:13-53
+activity#com.example.imagepro.BCFilipinianaStatusBook4
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:271:9-273:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:273:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:272:13-53
+activity#com.example.imagepro.BCFilipinianaStatusBook3
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:274:9-276:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:276:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:275:13-53
+activity#com.example.imagepro.BCFilipinianaStatusBook2
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:277:9-279:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:279:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:278:13-53
+activity#com.example.imagepro.LedControl
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:280:9-282:39
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:282:13-36
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:281:13-39
+activity#com.example.imagepro.PeriodicalsSectionScrollingActivity
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:283:9-287:66
+	android:label
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:286:13-81
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:285:13-37
+	android:theme
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:287:13-63
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:284:13-64
+activity#com.example.imagepro.FilipinianaSectionScrollingActivity
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:288:9-292:66
+	android:label
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:291:13-73
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:290:13-37
+	android:theme
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:292:13-63
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:289:13-64
+activity#com.example.imagepro.BCFilipinianaStatusBook1
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:293:9-295:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:295:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:294:13-53
+activity#com.example.imagepro.UserSendFeedback
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:296:9-298:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:298:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:297:13-45
+activity#com.example.imagepro.AdminMessages
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:299:9-301:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:301:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:300:13-42
+activity#com.example.imagepro.AdminFeedback
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:302:9-304:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:304:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:303:13-42
+activity#com.example.imagepro.BookCatalogPage
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:305:9-307:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:307:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:306:13-44
+activity#com.example.imagepro.AdminHomePage
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:308:9-310:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:310:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:309:13-42
+activity#com.example.imagepro.SignUpActivity
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:311:9-313:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:313:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:312:13-43
+activity#com.example.imagepro.LoginActivity
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:314:9-316:40
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:316:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:315:13-42
+activity#com.example.imagepro.CameraActivity
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:317:9-319:39
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:319:13-37
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:318:13-43
+activity#com.example.imagepro.MainActivity
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:320:9-327:20
+	android:exported
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:322:13-36
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:321:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:323:13-326:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:324:17-69
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:324:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:325:17-77
+	android:name
+		ADDED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:325:27-74
+uses-sdk
+INJECTED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.9.0] C:\Users\csv20\.gradle\caches\8.9\transforms\a4094baf664220a77b3be6aa0824629d\transformed\jetified-tensorflow-lite-gpu-2.9.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.9.0] C:\Users\csv20\.gradle\caches\8.9\transforms\a4094baf664220a77b3be6aa0824629d\transformed\jetified-tensorflow-lite-gpu-2.9.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-task-text:0.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\ba301e1544345f56616d005f7bc9fb62\transformed\jetified-tensorflow-lite-task-text-0.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [org.tensorflow:tensorflow-lite-task-text:0.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\ba301e1544345f56616d005f7bc9fb62\transformed\jetified-tensorflow-lite-task-text-0.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [org.tensorflow:tensorflow-lite-support:0.4.1] C:\Users\csv20\.gradle\caches\8.9\transforms\1de338724936abbd7b4b68eef92810c1\transformed\jetified-tensorflow-lite-support-0.4.1\AndroidManifest.xml:4:3-71
+MERGED from [org.tensorflow:tensorflow-lite-support:0.4.1] C:\Users\csv20\.gradle\caches\8.9\transforms\1de338724936abbd7b4b68eef92810c1\transformed\jetified-tensorflow-lite-support-0.4.1\AndroidManifest.xml:4:3-71
+MERGED from [org.tensorflow:tensorflow-lite-task-vision:0.4.1] C:\Users\csv20\.gradle\caches\8.9\transforms\e1207f80095b44a926fc8cb7b6dc98b3\transformed\jetified-tensorflow-lite-task-vision-0.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [org.tensorflow:tensorflow-lite-task-vision:0.4.1] C:\Users\csv20\.gradle\caches\8.9\transforms\e1207f80095b44a926fc8cb7b6dc98b3\transformed\jetified-tensorflow-lite-task-vision-0.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\csv20\.gradle\caches\8.9\transforms\81335119a568adab27dfc9fa2e61a412\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\csv20\.gradle\caches\8.9\transforms\81335119a568adab27dfc9fa2e61a412\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\csv20\.gradle\caches\8.9\transforms\1f4b0b37224efbd58530b1b6cc85a0df\transformed\constraintlayout-2.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\csv20\.gradle\caches\8.9\transforms\1f4b0b37224efbd58530b1b6cc85a0df\transformed\constraintlayout-2.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\ca66ec4f0fb00decdfe1e74d5e290681\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\ca66ec4f0fb00decdfe1e74d5e290681\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\898b79dd632f89eb91b6f092b9b23fc3\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\898b79dd632f89eb91b6f092b9b23fc3\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [:openCVLibrary3413] C:\Users\csv20\Downloads\LibVision2\LibVision2\openCVLibrary3413\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-44
+MERGED from [:openCVLibrary3413] C:\Users\csv20\Downloads\LibVision2\LibVision2\openCVLibrary3413\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-44
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\56ebdbb5ae469b13962204aed20b50f2\transformed\jetified-firebase-appcheck-interop-17.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\56ebdbb5ae469b13962204aed20b50f2\transformed\jetified-firebase-appcheck-interop-17.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\csv20\.gradle\caches\8.9\transforms\a270f518fc86375d778c40e052a48b07\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\csv20\.gradle\caches\8.9\transforms\a270f518fc86375d778c40e052a48b07\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\0664be1f581d7356afe6d9b17a2a5539\transformed\jetified-credentials-1.2.0-rc01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\0664be1f581d7356afe6d9b17a2a5539\transformed\jetified-credentials-1.2.0-rc01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\csv20\.gradle\caches\8.9\transforms\756a49b8d17d9f24c9cacea7977d91fb\transformed\jetified-play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\csv20\.gradle\caches\8.9\transforms\756a49b8d17d9f24c9cacea7977d91fb\transformed\jetified-play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\7505a9c84e3528aaf5d647ec4b539c89\transformed\jetified-play-services-fido-20.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\7505a9c84e3528aaf5d647ec4b539c89\transformed\jetified-play-services-fido-20.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\csv20\.gradle\caches\8.9\transforms\de2d637606575f09379bd4a8cf3f2bf2\transformed\jetified-play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\csv20\.gradle\caches\8.9\transforms\de2d637606575f09379bd4a8cf3f2bf2\transformed\jetified-play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\csv20\.gradle\caches\8.9\transforms\82acb23a00e3bd836e8b4d088e97bc4d\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\csv20\.gradle\caches\8.9\transforms\82acb23a00e3bd836e8b4d088e97bc4d\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\3d28088c251160997077d94e075ec889\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\3d28088c251160997077d94e075ec889\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\711a1b30069f911410f3c7e89c221b88\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\711a1b30069f911410f3c7e89c221b88\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\54d150a8db94abcdd6725ce095f90ca2\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\54d150a8db94abcdd6725ce095f90ca2\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\csv20\.gradle\caches\8.9\transforms\7bfc9b1186592f65c9689a902e596879\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\csv20\.gradle\caches\8.9\transforms\7bfc9b1186592f65c9689a902e596879\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\0fd80a46680ed1fef73eef57e0d69f54\transformed\jetified-integrity-1.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\0fd80a46680ed1fef73eef57e0d69f54\transformed\jetified-integrity-1.3.0\AndroidManifest.xml:4:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\08d5b9915169d75c7a01facbcf244b02\transformed\jetified-core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\08d5b9915169d75c7a01facbcf244b02\transformed\jetified-core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\1191d6c53fda6af8fabd389cd7ca2ecd\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\1191d6c53fda6af8fabd389cd7ca2ecd\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2f2b8f2c9b8f905f136b6ee327647449\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2f2b8f2c9b8f905f136b6ee327647449\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\9bd428bc8c6ad1ca1c5fbedc57e22136\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\9bd428bc8c6ad1ca1c5fbedc57e22136\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\0e77726ea2555ceec6be9bb5043ca837\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\0e77726ea2555ceec6be9bb5043ca837\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6d33bfc82c3806bdb68297e028880cbd\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6d33bfc82c3806bdb68297e028880cbd\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\76f61d2a920cc5260371845bf3089e46\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\76f61d2a920cc5260371845bf3089e46\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\bdc2906be2ce4c017e657253178bfafe\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\bdc2906be2ce4c017e657253178bfafe\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\8ee4efb7fe8f0d5a3f9255207ec5d21b\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\8ee4efb7fe8f0d5a3f9255207ec5d21b\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\ffa8e7d0ac45c1ad41d6e60831c2d363\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\ffa8e7d0ac45c1ad41d6e60831c2d363\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\004e734b5c0f9f633880fc498231237b\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\004e734b5c0f9f633880fc498231237b\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\9b044a670a8b32ede52a9ce242042230\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\9b044a670a8b32ede52a9ce242042230\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d2170b2ebd27b5de9bcb5e8cf6ec8351\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d2170b2ebd27b5de9bcb5e8cf6ec8351\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\5f5075382e38990acc42f5dc56d900c7\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\5f5075382e38990acc42f5dc56d900c7\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\9de7e3bba61c63cd060acfd882b1c7f0\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\9de7e3bba61c63cd060acfd882b1c7f0\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\32c5d5592cbced18c50b69bee66180ef\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\32c5d5592cbced18c50b69bee66180ef\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\7718eea57e1246b05e60788edec703e9\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\7718eea57e1246b05e60788edec703e9\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\82f885bd2ecc0d007ad81c5313e906c7\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\82f885bd2ecc0d007ad81c5313e906c7\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\746d61179a34ac7d69b9578a6352ea45\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\746d61179a34ac7d69b9578a6352ea45\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\0b6268a3f1260fa460bb5f2e61ad3ca6\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\0b6268a3f1260fa460bb5f2e61ad3ca6\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\488407da43256b20f610e583595b6929\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\488407da43256b20f610e583595b6929\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\308d0c5333bbdf9152339e707e3251a1\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\308d0c5333bbdf9152339e707e3251a1\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\csv20\.gradle\caches\8.9\transforms\93f198a881f0865893f4056b7b37ed88\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\csv20\.gradle\caches\8.9\transforms\93f198a881f0865893f4056b7b37ed88\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\csv20\.gradle\caches\8.9\transforms\fa00350a6e363be97ab35694797b12d4\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\csv20\.gradle\caches\8.9\transforms\fa00350a6e363be97ab35694797b12d4\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2bdfeda9373e8eadf068530e4d35cb93\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2bdfeda9373e8eadf068530e4d35cb93\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\csv20\.gradle\caches\8.9\transforms\f7b0b8e4826151d4f0fde7ece106bc6f\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\csv20\.gradle\caches\8.9\transforms\f7b0b8e4826151d4f0fde7ece106bc6f\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\csv20\.gradle\caches\8.9\transforms\6456e82b5f8860046280c75ed9574e77\transformed\jetified-activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\csv20\.gradle\caches\8.9\transforms\6456e82b5f8860046280c75ed9574e77\transformed\jetified-activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [org.tensorflow:tensorflow-lite-support-api:0.4.1] C:\Users\csv20\.gradle\caches\8.9\transforms\9033d7918491d6f7a408f1fc0732c4fe\transformed\jetified-tensorflow-lite-support-api-0.4.1\AndroidManifest.xml:4:3-71
+MERGED from [org.tensorflow:tensorflow-lite-support-api:0.4.1] C:\Users\csv20\.gradle\caches\8.9\transforms\9033d7918491d6f7a408f1fc0732c4fe\transformed\jetified-tensorflow-lite-support-api-0.4.1\AndroidManifest.xml:4:3-71
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\csv20\.gradle\caches\8.9\transforms\f5deb16a0f4272be5ffd9d97fddaddb6\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\csv20\.gradle\caches\8.9\transforms\f5deb16a0f4272be5ffd9d97fddaddb6\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:5:5-44
+MERGED from [org.tensorflow:tensorflow-lite:2.9.0] C:\Users\csv20\.gradle\caches\8.9\transforms\75a0468594a8bfeac4e8e3104c7eca26\transformed\jetified-tensorflow-lite-2.9.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite:2.9.0] C:\Users\csv20\.gradle\caches\8.9\transforms\75a0468594a8bfeac4e8e3104c7eca26\transformed\jetified-tensorflow-lite-2.9.0\AndroidManifest.xml:7:5-8:41
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\eabbe420ef7486d998537c32b837fbc8\transformed\jetified-googleid-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\eabbe420ef7486d998537c32b837fbc8\transformed\jetified-googleid-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\1ef3a90e6db74461d02942b37be1b4f3\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\1ef3a90e6db74461d02942b37be1b4f3\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\8dcef497d48db54aa31fc40d600529b7\transformed\jetified-firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\8dcef497d48db54aa31fc40d600529b7\transformed\jetified-firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\054b0f149819a279b086af7251ad60a8\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\054b0f149819a279b086af7251ad60a8\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\77a733bcb0c5f0acd1891d9bb3a3ca38\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\77a733bcb0c5f0acd1891d9bb3a3ca38\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\b478fe2317caf6f8da89da6a8587c148\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\b478fe2317caf6f8da89da6a8587c148\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\b75081d759d4d0661067dd98aaf00305\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\b75081d759d4d0661067dd98aaf00305\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d3fb90e1b988627b08553c5f202e6c71\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d3fb90e1b988627b08553c5f202e6c71\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\e0cfc2f1318aa9d743aaf78228a8a786\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\e0cfc2f1318aa9d743aaf78228a8a786\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\6e326e57d992d9a53732c4a53fe9a6ef\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\6e326e57d992d9a53732c4a53fe9a6ef\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2dc212cba2a31f8fb70db43f771f87f8\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2dc212cba2a31f8fb70db43f771f87f8\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\f3b8cfd6ca7b1bb9db1b1c3ecfd48fb4\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\f3b8cfd6ca7b1bb9db1b1c3ecfd48fb4\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\29fd2ee63e3ba22ca86cbdb18bc5b9f2\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\29fd2ee63e3ba22ca86cbdb18bc5b9f2\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\4dd46e2fec18862f7f0a79630eb07260\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\4dd46e2fec18862f7f0a79630eb07260\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [org.tensorflow:tensorflow-lite-api:2.9.0] C:\Users\csv20\.gradle\caches\8.9\transforms\c04ce33d00ca9a17b1e26d3b41797424\transformed\jetified-tensorflow-lite-api-2.9.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-api:2.9.0] C:\Users\csv20\.gradle\caches\8.9\transforms\c04ce33d00ca9a17b1e26d3b41797424\transformed\jetified-tensorflow-lite-api-2.9.0\AndroidManifest.xml:7:5-8:41
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\csv20\.gradle\caches\8.9\transforms\6ab61d3ac2ff3011853a718dedd40df7\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\csv20\.gradle\caches\8.9\transforms\6ab61d3ac2ff3011853a718dedd40df7\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\csv20\.gradle\caches\8.9\transforms\bf16126198d80f7d6674ac28a9b69509\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\csv20\.gradle\caches\8.9\transforms\bf16126198d80f7d6674ac28a9b69509\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:23:9-148
+	android:targetSdkVersion
+		INJECTED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml
+		MERGED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml
+		MERGED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml
+		MERGED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\csv20\.gradle\caches\8.9\transforms\7bfc9b1186592f65c9689a902e596879\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\csv20\.gradle\caches\8.9\transforms\7bfc9b1186592f65c9689a902e596879\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:8:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\csv20\.gradle\caches\8.9\transforms\f5deb16a0f4272be5ffd9d97fddaddb6\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\csv20\.gradle\caches\8.9\transforms\f5deb16a0f4272be5ffd9d97fddaddb6\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:10:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\711a1b30069f911410f3c7e89c221b88\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\711a1b30069f911410f3c7e89c221b88\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:16:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:15:13-84
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\d42f5471d049eee16c5a1548c96d8e0b\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:21:17-111
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\csv20\.gradle\caches\8.9\transforms\d22be56240f8be864fee37562ca6062f\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:70:17-109
+service#androidx.credentials.playservices.CredentialProviderMetadataHolder
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
+meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
+	android:value
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
+activity#androidx.credentials.playservices.HiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\csv20\.gradle\caches\8.9\transforms\3dad1741b83704ff934a3453c04a872d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\csv20\.gradle\caches\8.9\transforms\6be2f31b640f992e170039ccddcf8c35\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\csv20\.gradle\caches\8.9\transforms\82acb23a00e3bd836e8b4d088e97bc4d\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\csv20\.gradle\caches\8.9\transforms\82acb23a00e3bd836e8b4d088e97bc4d\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\csv20\.gradle\caches\8.9\transforms\82acb23a00e3bd836e8b4d088e97bc4d\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\csv20\.gradle\caches\8.9\transforms\82acb23a00e3bd836e8b4d088e97bc4d\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\711a1b30069f911410f3c7e89c221b88\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\711a1b30069f911410f3c7e89c221b88\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\711a1b30069f911410f3c7e89c221b88\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\csv20\.gradle\caches\8.9\transforms\87da130d97773f1acadf7d74c255dfc9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\csv20\.gradle\caches\8.9\transforms\7bfc9b1186592f65c9689a902e596879\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\csv20\.gradle\caches\8.9\transforms\7bfc9b1186592f65c9689a902e596879\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:9:22-95
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2f2b8f2c9b8f905f136b6ee327647449\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\746d61179a34ac7d69b9578a6352ea45\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\746d61179a34ac7d69b9578a6352ea45\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\b478fe2317caf6f8da89da6a8587c148\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\csv20\.gradle\caches\8.9\transforms\b478fe2317caf6f8da89da6a8587c148\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2f2b8f2c9b8f905f136b6ee327647449\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2f2b8f2c9b8f905f136b6ee327647449\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2f2b8f2c9b8f905f136b6ee327647449\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2f2b8f2c9b8f905f136b6ee327647449\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2f2b8f2c9b8f905f136b6ee327647449\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2f2b8f2c9b8f905f136b6ee327647449\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2f2b8f2c9b8f905f136b6ee327647449\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\32c5d5592cbced18c50b69bee66180ef\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\32c5d5592cbced18c50b69bee66180ef\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\32c5d5592cbced18c50b69bee66180ef\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+permission#com.example.imagepro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\32c5d5592cbced18c50b69bee66180ef\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\32c5d5592cbced18c50b69bee66180ef\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\32c5d5592cbced18c50b69bee66180ef\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\32c5d5592cbced18c50b69bee66180ef\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\32c5d5592cbced18c50b69bee66180ef\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.imagepro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\32c5d5592cbced18c50b69bee66180ef\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\csv20\.gradle\caches\8.9\transforms\32c5d5592cbced18c50b69bee66180ef\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\746d61179a34ac7d69b9578a6352ea45\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\746d61179a34ac7d69b9578a6352ea45\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\csv20\.gradle\caches\8.9\transforms\746d61179a34ac7d69b9578a6352ea45\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2bdfeda9373e8eadf068530e4d35cb93\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2bdfeda9373e8eadf068530e4d35cb93\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\2bdfeda9373e8eadf068530e4d35cb93\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:2:1-331:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:2:1-331:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\Users\csv20\Downloads\LibVision2\LibVision2\app\src\main\AndroidManifest.xml:2:1-331:12 reason: src.java.org.tensorflow.lite.task.core requested WRITE_EXTERNAL_STORAGE
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\csv20\.gradle\caches\8.9\transforms\50c4b0312ff38406af5aa16c37e5a972\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\csv20\.gradle\caches\8.9\transforms\bf16126198d80f7d6674ac28a9b69509\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\csv20\.gradle\caches\8.9\transforms\bf16126198d80f7d6674ac28a9b69509\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:17:13-42
+	android:exported
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\csv20\.gradle\caches\8.9\transforms\bf16126198d80f7d6674ac28a9b69509\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\csv20\.gradle\caches\8.9\transforms\bf16126198d80f7d6674ac28a9b69509\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:18:13-62
+	android:name
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\csv20\.gradle\caches\8.9\transforms\bf16126198d80f7d6674ac28a9b69509\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:15:13-93
