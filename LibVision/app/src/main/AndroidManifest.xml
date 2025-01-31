@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- Permissions and Features -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+
+    <!-- Application Configuration -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ImagePro">
+
+
+        <!-- Activities -->
+        <activity
+            android:name=".LibrarianProfile"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".TheAboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".TheLibrarians"
+            android:exported="false" />
+        <activity
+            android:name=".user_homepage"
+            android:exported="false" />
+        <activity
+            android:name=".BCMedicalStatusBook10"
+            android:exported="false" />
+        <activity
+            android:name=".BCMedicalStatusBook9"
+            android:exported="false" />
+        <activity
+            android:name=".BCMedicalStatusBook8"
+            android:exported="false" />
+        <activity
+            android:name=".BCMedicalStatusBook7"
+            android:exported="false" />
+        <activity
+            android:name=".BCMedicalStatusBook6"
+            android:exported="false" />
+        <activity
+            android:name=".BCMedicalStatusBook5"
+            android:exported="false" />
+        <activity
+            android:name=".BCMedicalStatusBook4"
+            android:exported="false" />
+        <activity
+            android:name=".BCMedicalStatusBook3"
+            android:exported="false" />
+        <activity
+            android:name=".BCMedicalStatusBook2"
+            android:exported="false" />
+        <activity
+            android:name=".BCMedicalStatusBook1"
+            android:exported="false" />
+        <activity
+            android:name=".MedicalLibraryScrollingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_medical_library_scrolling"
+            android:theme="@style/Theme.LibVision.NoActionBar" />
+        <activity
+            android:name=".BCReferenceStatusBook10"
+            android:exported="false" />
+        <activity
+            android:name=".BCReferenceStatusBook9"
+            android:exported="false" />
+        <activity
+            android:name=".BCReferenceStatusBook8"
+            android:exported="false" />
+        <activity
+            android:name=".BCReferenceStatusBook7"
+            android:exported="false" />
+        <activity
+            android:name=".BCReferenceStatusBook6"
+            android:exported="false" />
+        <activity
+            android:name=".BCReferenceStatusBook5"
+            android:exported="false" />
+        <activity
+            android:name=".BCReferenceStatusBook4"
+            android:exported="false" />
+        <activity
+            android:name=".BCReferenceStatusBook3"
+            android:exported="false" />
+        <activity
+            android:name=".BCReferenceStatusBook2"
+            android:exported="false" />
+        <activity
+            android:name=".BCReferenceStatusBook1"
+            android:exported="false" />
+        <activity
+            android:name=".BCLawStatusBook10"
+            android:exported="false" />
+        <activity
+            android:name=".BCLawStatusBook9"
+            android:exported="false" />
+        <activity
+            android:name=".BCLawStatusBook8"
+            android:exported="false" />
+        <activity
+            android:name=".BCLawStatusBook7"
+            android:exported="false" />
+        <activity
+            android:name=".BCLawStatusBook6"
+            android:exported="false" />
+        <activity
+            android:name=".BCLawStatusBook5"
+            android:exported="false" />
+        <activity
+            android:name=".BCLawStatusBook4"
+            android:exported="false" />
+        <activity
+            android:name=".BCLawStatusBook3"
+            android:exported="false" />
+        <activity
+            android:name=".BCLawStatusBook2"
+            android:exported="false" />
+        <activity
+            android:name=".BCLawStatusBook1"
+            android:exported="false" />
+        <activity
+            android:name=".BCHealthStatusBook10"
+            android:exported="false" />
+        <activity
+            android:name=".BCHealthStatusBook9"
+            android:exported="false" />
+        <activity
+            android:name=".BCHealthStatusBook8"
+            android:exported="false" />
+        <activity
+            android:name=".BCHealthStatusBook7"
+            android:exported="false" />
+        <activity
+            android:name=".BCHealthStatusBook6"
+            android:exported="false" />
+        <activity
+            android:name=".BCHealthStatusBook5"
+            android:exported="false" />
+        <activity
+            android:name=".BCHealthStatusBook4"
+            android:exported="false" />
+        <activity
+            android:name=".BCHealthStatusBook3"
+            android:exported="false" />
+        <activity
+            android:name=".BCHealthStatusBook2"
+            android:exported="false" />
+        <activity
+            android:name=".BCHealthStatusBook1"
+            android:exported="false" />
+        <activity
+            android:name=".BCCirculationStatusBook10"
+            android:exported="false" />
+        <activity
+            android:name=".BCCirculationStatusBook9"
+            android:exported="false" />
+        <activity
+            android:name=".BCCirculationStatusBook8"
+            android:exported="false" />
+        <activity
+            android:name=".BCCirculationStatusBook7"
+            android:exported="false" />
+        <activity
+            android:name=".BCCirculationStatusBook6"
+            android:exported="false" />
+        <activity
+            android:name=".BCCirculationStatusBook5"
+            android:exported="false" />
+        <activity
+            android:name=".BCCirculationStatusBook4"
+            android:exported="false" />
+        <activity
+            android:name=".BCCirculationStatusBook3"
+            android:exported="false" />
+        <activity
+            android:name=".BCCirculationStatusBook2"
+            android:exported="false" />
+        <activity
+            android:name=".BCCirculationStatusBook1"
+            android:exported="false" />
+        <activity
+            android:name=".BCPeriodicalsStatusBook10"
+            android:exported="false" />
+        <activity
+            android:name=".BCPeriodicalsStatusBook9"
+            android:exported="false" />
+        <activity
+            android:name=".BCPeriodicalsStatusBook8"
+            android:exported="false" />
+        <activity
+            android:name=".BCPeriodicalsStatusBook7"
+            android:exported="false" />
+        <activity
+            android:name=".BCPeriodicalsStatusBook6"
+            android:exported="false" />
+        <activity
+            android:name=".BCPeriodicalsStatusBook5"
+            android:exported="false" />
+        <activity
+            android:name=".BCPeriodicalsStatusBook4"
+            android:exported="false" />
+        <activity
+            android:name=".BCPeriodicalsStatusBook3"
+            android:exported="false" />
+        <activity
+            android:name=".BCPeriodicalsStatusBook1"
+            android:exported="false" />
+        <activity
+            android:name=".BCPeriodicalsStatusBook2"
+            android:exported="false" />
+        <activity
+            android:name=".ReferenceSectionScrollingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_reference_section_scrolling"
+            android:theme="@style/Theme.LibVision.NoActionBar" />
+        <activity
+            android:name=".LawLibraryScrollingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_law_library_scrolling"
+            android:theme="@style/Theme.LibVision.NoActionBar" />
+        <activity
+            android:name=".HealthScienceScrollingActivity"
+            android:exported="false"
+            android:label="HealthScienceScrollingActivity"
+            android:theme="@style/Theme.LibVision.NoActionBar" />
+        <activity
+            android:name=".CirculationSectionScrollingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_circulation_section_scrolling"
+            android:theme="@style/Theme.LibVision.NoActionBar" />
+        <activity
+            android:name=".BCFilipinianaStatusBook10"
+            android:exported="false" />
+        <activity
+            android:name=".BCFilipinianaStatusBook9"
+            android:exported="false" />
+        <activity
+            android:name=".BCFilipinianaStatusBook8"
+            android:exported="false" />
+        <activity
+            android:name=".BCFilipinianaStatusBook7"
+            android:exported="false" />
+        <activity
+            android:name=".BCFilipinianaStatusBook6"
+            android:exported="false" />
+        <activity
+            android:name=".BCFilipinianaStatusBook5"
+            android:exported="false" />
+        <activity
+            android:name=".BCFilipinianaStatusBook4"
+            android:exported="false" />
+        <activity
+            android:name=".BCFilipinianaStatusBook3"
+            android:exported="false" />
+        <activity
+            android:name=".BCFilipinianaStatusBook2"
+            android:exported="false" />
+        <activity
+            android:name=".LedControl"
+            android:exported="true" />
+        <activity
+            android:name=".PeriodicalsSectionScrollingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_periodicals_section_scrolling"
+            android:theme="@style/Theme.LibVision.NoActionBar" />
+        <activity
+            android:name=".FilipinianaSectionScrollingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_circulation_scrolling"
+            android:theme="@style/Theme.LibVision.NoActionBar" />
+        <activity
+            android:name=".BCFilipinianaStatusBook1"
+            android:exported="false" />
+        <activity
+            android:name=".UserSendFeedback"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMessages"
+            android:exported="false" />
+        <activity
+            android:name=".AdminFeedback"
+            android:exported="false" />
+        <activity
+            android:name=".BookCatalogPage"
+            android:exported="false" />
+        <activity
+            android:name=".AdminHomePage"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CameraActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
