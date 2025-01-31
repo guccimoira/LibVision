@@ -1,3 +1,0 @@
-com.example.imagepro.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
