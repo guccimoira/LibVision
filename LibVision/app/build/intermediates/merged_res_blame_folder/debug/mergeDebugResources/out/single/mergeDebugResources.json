@@ -1,0 +1,918 @@
+[
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcperiodicals_status_book7.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcperiodicals_status_book7.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-ldpi_home_button.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-ldpi/home_button.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-xxhdpi_home_button.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-xxhdpi/home_button.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_admin_feedback.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_admin_feedback.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcfilipiniana_status_book10.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcfilipiniana_status_book10.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_edit_profile.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_edit_profile.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_admin_home_page.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_admin_home_page.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bchealth_status_book2.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bchealth_status_book2.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_periodicals_section_scrolling.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_periodicals_section_scrolling.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-mdpi_messages.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-mdpi/messages.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-ldpi_ledcontrol.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-ldpi/ledcontrol.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bclaw_status_book1.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bclaw_status_book1.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcperiodicals_status_book8.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcperiodicals_status_book8.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-hdpi_manual_button.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-hdpi/manual_button.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcmedical_status_book7.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcmedical_status_book7.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_login.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bchealth_status_book3.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bchealth_status_book3.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bchealth_status_book10.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bchealth_status_book10.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_ic_launcher_libraryicononlyround_background.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/ic_launcher_libraryicononlyround_background.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-xxxhdpi_logo_round.webp.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-xxxhdpi/logo_round.webp"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcreference_status_book9.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcreference_status_book9.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_sign_up.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_eye_closed.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/eye_closed.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_logonamenobg.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/logonamenobg.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_pola1.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/pola1.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcfilipiniana_status_book1.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcfilipiniana_status_book1.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bccirculation_status_book10.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bccirculation_status_book10.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-xxxhdpi_back_button.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-xxxhdpi/back_button.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout-w936dp_content_scrolling.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout-w936dp/content_scrolling.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bccirculation_status_book2.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bccirculation_status_book2.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_adminbutton_background.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/adminbutton_background.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_eye_open.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/eye_open.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-xxxhdpi_profile.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-xxxhdpi/profile.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/menu_menu_health_science_scrolling.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/menu/menu_health_science_scrolling.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcperiodicals_status_book5.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcperiodicals_status_book5.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_librarian_profile.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/librarian_profile.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bclaw_status_book3.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bclaw_status_book3.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_the_about_us.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_the_about_us.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_ic_launcher_libvisionlogoname_background.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/ic_launcher_libvisionlogoname_background.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-xxhdpi_logo_round.webp.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-xxhdpi/logo_round.webp"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/menu_menu_reference_section_scrolling.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/menu/menu_reference_section_scrolling.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-xxxhdpi_messages.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-xxxhdpi/messages.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-xhdpi_logo.webp.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-xhdpi/logo.webp"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_librarian_profile_background.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/librarian_profile_background.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcmedical_status_book8.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcmedical_status_book8.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_book_counter_page.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_book_counter_page.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcmedical_status_book5.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcmedical_status_book5.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bchealth_status_book5.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bchealth_status_book5.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_ic_launcher_libraryicon_background.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/ic_launcher_libraryicon_background.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcreference_status_book7.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcreference_status_book7.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-anydpi-v24_profile.xml.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-anydpi-v24/profile.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-anydpi-v26_logo_round.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-anydpi-v26/logo_round.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_medical_library_scrolling.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_medical_library_scrolling.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bccirculation_status_book4.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bccirculation_status_book4.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-xhdpi_back_button.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-xhdpi/back_button.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-hdpi_messages.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-hdpi/messages.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_book_catalog.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/book_catalog.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-mdpi_logo_round.webp.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-mdpi/logo_round.webp"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_user_homepage.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_user_homepage.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-anydpi-v24_home_button.xml.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-anydpi-v24/home_button.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_fragment_manual.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/fragment_manual.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_fragment_profile.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-hdpi_back_button.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-hdpi/back_button.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_admin_messages.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_admin_messages.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-xxxhdpi_home_button.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-xxxhdpi/home_button.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-anydpi-v26_logo.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-anydpi-v26/logo.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-xxhdpi_ledcontrol.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-xxhdpi/ledcontrol.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_circulation_section_scrolling.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_circulation_section_scrolling.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-xhdpi_profile.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-xhdpi/profile.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-ldpi_profile.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-ldpi/profile.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bclaw_status_book10.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bclaw_status_book10.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-mdpi_home_button.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-mdpi/home_button.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bccirculation_status_book3.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bccirculation_status_book3.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_admin_profile.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/admin_profile.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_message_button.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/message_button.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-xhdpi_logo_round.webp.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-xhdpi/logo_round.webp"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bclaw_status_book7.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bclaw_status_book7.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcreference_status_book2.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcreference_status_book2.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-xhdpi_logo_foreground.webp.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-xhdpi/logo_foreground.webp"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/menu_menu_circulation_scrolling.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/menu/menu_circulation_scrolling.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcmedical_status_book6.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcmedical_status_book6.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_feedback.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/feedback.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bccirculation_status_book9.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bccirculation_status_book9.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_image_slider_item.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/image_slider_item.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bclaw_status_book8.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bclaw_status_book8.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_ref.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/ref.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bchealth_status_book4.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bchealth_status_book4.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcperiodicals_status_book6.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcperiodicals_status_book6.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_send_feedback.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/send_feedback.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/menu_menu_medical_library_scrolling.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/menu/menu_medical_library_scrolling.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_search_bar_icon.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/search_bar_icon.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-ldpi_back_button.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-ldpi/back_button.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcmedical_status_book1.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcmedical_status_book1.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcfilipiniana_status_book6.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcfilipiniana_status_book6.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcreference_status_book8.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcreference_status_book8.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_fili.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/fili.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/menu_menu_helath_sciences_scrolling.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/menu/menu_helath_sciences_scrolling.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_circ.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/circ.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_content_scrolling.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/content_scrolling.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bclaw_status_book2.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bclaw_status_book2.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_button_outline.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/button_outline.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bclaw_status_book9.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bclaw_status_book9.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_pola6.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/pola6.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_ic_prof_button.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/ic_prof_button.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcreference_status_book10.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcreference_status_book10.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-anydpi-v24_ledcontrol.xml.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-anydpi-v24/ledcontrol.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-xxxhdpi_manual_button.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-xxxhdpi/manual_button.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-xxxhdpi_logo.webp.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-xxxhdpi/logo.webp"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcfilipiniana_status_book7.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcfilipiniana_status_book7.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_rounded_frame_booksection.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/rounded_frame_booksection.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcreference_status_book3.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcreference_status_book3.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-mdpi_ledcontrol.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-mdpi/ledcontrol.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-hdpi_home_button.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-hdpi/home_button.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_logout_confirmation_dialog.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_logout_confirmation_dialog.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-hdpi_logo.webp.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-hdpi/logo.webp"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bchealth_status_book9.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bchealth_status_book9.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_librarian_profile.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_librarian_profile.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_user_send_feedback.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_user_send_feedback.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-xxhdpi_profile.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-xxhdpi/profile.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_ic_launcher_libraryicononly_background.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/ic_launcher_libraryicononly_background.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/menu_menu_periodicals_section_scrolling.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/menu/menu_periodicals_section_scrolling.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-xxhdpi_logo_foreground.webp.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-xxhdpi/logo_foreground.webp"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bccirculation_status_book7.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bccirculation_status_book7.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_user_profile.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/user_profile.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-ldpi_messages.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-ldpi/messages.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_rounded_frame.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/rounded_frame.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_filipiniana_section_scrolling.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_filipiniana_section_scrolling.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcfilipiniana_status_book5.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcfilipiniana_status_book5.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcperiodicals_status_book1.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcperiodicals_status_book1.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_law_library_scrolling.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_law_library_scrolling.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcperiodicals_status_book10.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcperiodicals_status_book10.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcfilipiniana_status_book8.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcfilipiniana_status_book8.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_pola5.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/pola5.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-xhdpi_messages.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-xhdpi/messages.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_led_control.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_led_control.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcmedical_status_book2.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcmedical_status_book2.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_searchbar_background.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/searchbar_background.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-xhdpi_ledcontrol.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-xhdpi/ledcontrol.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/menu_menu_law_library_scrolling.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/menu/menu_law_library_scrolling.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-xhdpi_home_button.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-xhdpi/home_button.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_health_science_scrolling.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_health_science_scrolling.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_pola4.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/pola4.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-xxhdpi_back_button.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-xxhdpi/back_button.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-mdpi_logo.webp.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-mdpi/logo.webp"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcmedical_status_book10.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcmedical_status_book10.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_rounded_frame_status.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/rounded_frame_status.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcfilipiniana_status_book4.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcfilipiniana_status_book4.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_rounded_frame_bookcatalog.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/rounded_frame_bookcatalog.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bchealth_status_book8.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bchealth_status_book8.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_perio.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/perio.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcreference_status_book1.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcreference_status_book1.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bclaw_status_book6.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bclaw_status_book6.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-anydpi-v24_manual_button.xml.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-anydpi-v24/manual_button.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bccirculation_status_book5.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bccirculation_status_book5.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_reference_section_scrolling.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_reference_section_scrolling.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-hdpi_ledcontrol.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-hdpi/ledcontrol.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcperiodicals_status_book2.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcperiodicals_status_book2.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_law.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/law.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcreference_status_book4.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcreference_status_book4.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bccirculation_status_book8.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bccirculation_status_book8.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-xxxhdpi_logo_foreground.webp.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-xxxhdpi/logo_foreground.webp"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-hdpi_logo_round.webp.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-hdpi/logo_round.webp"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-xxhdpi_manual_button.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-xxhdpi/manual_button.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_admin_profile.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_admin_profile.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_logout.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/logout.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bclaw_status_book5.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bclaw_status_book5.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_camera.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_camera.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout-w1240dp_content_scrolling.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout-w1240dp/content_scrolling.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcperiodicals_status_book3.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcperiodicals_status_book3.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_book_counter.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/book_counter.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/menu_menu_circulation_section_scrolling.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/menu/menu_circulation_section_scrolling.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcmedical_status_book4.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcmedical_status_book4.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcfilipiniana_status_book2.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcfilipiniana_status_book2.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcmedical_status_book3.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcmedical_status_book3.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_the_librarians.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_the_librarians.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_libraryshelf.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/libraryshelf.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_pola2.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/pola2.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_rounded_corners.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/rounded_corners.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bchealth_status_book6.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bchealth_status_book6.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-xhdpi_manual_button.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-xhdpi/manual_button.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-hdpi_profile.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-hdpi/profile.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bclaw_status_book4.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bclaw_status_book4.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-xxhdpi_messages.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-xxhdpi/messages.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcperiodicals_status_book4.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcperiodicals_status_book4.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_ic_launcher_libraryshelf_background.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/ic_launcher_libraryshelf_background.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcreference_status_book6.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcreference_status_book6.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-hdpi_logo_foreground.webp.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-hdpi/logo_foreground.webp"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bccirculation_status_book6.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bccirculation_status_book6.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-ldpi_manual_button.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-ldpi/manual_button.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_ic_custom_ledbutton.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/ic_custom_ledbutton.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bchealth_status_book7.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bchealth_status_book7.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-xxhdpi_logo.webp.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-xxhdpi/logo.webp"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_fragment_home.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-mdpi_profile.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-mdpi/profile.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-mdpi_manual_button.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-mdpi/manual_button.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcmedical_status_book9.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcmedical_status_book9.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-anydpi-v24_back_button.xml.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-anydpi-v24/back_button.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcreference_status_book5.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcreference_status_book5.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcfilipiniana_status_book9.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcfilipiniana_status_book9.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_border_manual.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/border_manual.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_lib_border.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/lib_border.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_health.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/health.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_ic_launcher_libraryiconround_background.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/ic_launcher_libraryiconround_background.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bchealth_status_book1.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bchealth_status_book1.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-xxxhdpi_ledcontrol.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-xxxhdpi/ledcontrol.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-mdpi_back_button.png.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-mdpi/back_button.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_book_catalog_page.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_book_catalog_page.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bccirculation_status_book1.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bccirculation_status_book1.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcperiodicals_status_book9.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcperiodicals_status_book9.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable_pola3.png.flat",
+        "source": "com.example.imagepro.app-main-42:/drawable/pola3.png"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/mipmap-mdpi_logo_foreground.webp.flat",
+        "source": "com.example.imagepro.app-main-42:/mipmap-mdpi/logo_foreground.webp"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_main.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/drawable-anydpi-v24_messages.xml.flat",
+        "source": "com.example.imagepro.app-pngs-35:/drawable-anydpi-v24/messages.xml"
+    },
+    {
+        "merged": "com.example.imagepro.app-debug-40:/layout_activity_bcfilipiniana_status_book3.xml.flat",
+        "source": "com.example.imagepro.app-main-42:/layout/activity_bcfilipiniana_status_book3.xml"
+    }
+]
